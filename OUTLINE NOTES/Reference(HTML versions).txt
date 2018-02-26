@@ -5,3 +5,4 @@ http://www.scriptingmaster.com/html/versions-of-HTML.asp
 https://www.w3.org/TR/REC-html32
 https://www.w3.org/TR/xhtml1/
 https://www.w3.org/TR/html52/
+https://www.w3.org/MarkUp/Cougar/
