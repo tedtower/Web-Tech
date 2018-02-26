@@ -1,0 +1,13 @@
+
+References:
+https://tools.ietf.org/html/rfc7231#section-4.1
+https://www.w3.org/Protocols/HTTP/1.1/draft-ietf-http-v11-spec-01
+https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
+http://qnimate.com/what-is-multiplexing-in-http2/
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
+https://www.pacwebhosting.co.uk/insight/News/NewsItem/View/31/http11-vs-http2-whats-the-difference
+https://http2.github.io/faq/
+http://www.differencebetween.net/technology/protocols-formats/difference-between-http-1-0-and-1-1/
+https://tools.ietf.org/html/rfc7540#section-4.3
+https://medium.com/platform-engineer/evolution-of-http-69cfe6531ba0
+https://http2.github.io/faq/
