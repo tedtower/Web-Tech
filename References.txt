@@ -17,3 +17,5 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation
 http://toolsqa.com/client-server/http-request/
 https://www.tutorialspoint.com/http/http_header_fields.htm
+https://en.wikipedia.org/wiki/WebDAV
+http://searchmicroservices.techtarget.com/definition/WebDAV-World-Wide-Web-Distributed-Authoring-and-Versioning
