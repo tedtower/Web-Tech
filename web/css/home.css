@@ -98,3 +98,14 @@ nav ul li a:hover {
 a.active {
   border-bottom: 2px solid #ecf0f1;
 }
+#body-content{
+	width: 100%;
+}
+#body-content-list{
+	width: 15%;
+	height: 100%;
+	position:static;
+}
+#body-content-content{
+	width: 85%;
+}
