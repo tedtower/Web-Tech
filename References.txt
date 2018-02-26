@@ -11,3 +11,9 @@ http://www.differencebetween.net/technology/protocols-formats/difference-between
 https://tools.ietf.org/html/rfc7540#section-4.3
 https://medium.com/platform-engineer/evolution-of-http-69cfe6531ba0
 https://http2.github.io/faq/
+https://www.w3.org/standards/webdesign/htmlcss
+https://www.w3resource.com/html/components-of-an-HTML-page.php
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation
+http://toolsqa.com/client-server/http-request/
+https://www.tutorialspoint.com/http/http_header_fields.htm
