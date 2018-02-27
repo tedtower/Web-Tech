@@ -22,3 +22,4 @@ http://searchmicroservices.techtarget.com/definition/WebDAV-World-Wide-Web-Distr
 https://www.w3.org/Protocols/rfc2616/rfc2616-sec12.html
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation
 https://www.w3.org/Protocols/rfc2616/rfc2616-sec12.html
+https://tools.ietf.org/html/rfc3986#page-17
