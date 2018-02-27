@@ -1,5 +1,5 @@
 html{
-  background-color: #210;
+  background-color: white;
 }
 
 * {
@@ -7,23 +7,7 @@ html{
   padding: 0;
   box-sizing: border-box;
 }
-.scanlines {
-  pointer-events: none;
-  background: linear-gradient(
-    to right,
-    rgba(255,255,255,0),
-    rgba(255,255,255,0) 50%,
-    rgba(0,0,0,0.3) 70%,
-    rgba(255,255,255,0.75)
-  );
-  background-size: 0.5rem 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.15;
-}
+
 .scanlines::before {
   background: rgba(129, 243, 253, 0.75);
   content: '';
@@ -34,14 +18,11 @@ html{
   width: 100%;
   height: 100%;
 }
-body {
-  font-family: 'OCR A';
-}
 
-nav {
+div#navigation {
   width: 100%;
-  height: 60px; 
-  position: fixed; 
+  height: 10%; 
+  position: static; 
   top: 0;
   background: #210;
 }
@@ -99,13 +80,21 @@ a.active {
   border-bottom: 2px solid #ecf0f1;
 }
 #body-content{
-	width: 100%;
 }
 #body-content-list{
-	width: 15%;
 	height: 100%;
+    width: 19%;
 	position:static;
+    display: inline-block;
 }
 #body-content-content{
-	width: 85%;
+	width: 80%;
+    display: inline-block;
+    position: static;
+}
+
+
+/* fonts config*/
+.notes p{
+    font-family: sans-serif;
 }
