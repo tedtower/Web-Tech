@@ -1,0 +1,163 @@
+Calines, Carla : Sherlea
+Catayao, Roxanne : rox65
+Domaoa, Jeane Cris : iJeane
+Dayrit, Aika Vien : biyenaaa
+Ramos, Tatum Eiffel Dodge : tedtower
+
+Update References.txt
+
+@rox65
+rox65 committed 20 minutes ago
+Verified   
+paraphrased docu
+
+@tedtower
+tedtower committed 4 hours ago
+Verified   
+Add files via upload
+
+@rox65
+rox65 committed 4 hours ago
+Verified   
+Update References.txt
+
+@rox65
+rox65 committed 4 hours ago
+Verified   
+Updated the home.hmlt and home.css
+
+@tedtower
+tedtower committed 6 hours ago
+Verified   
+Edited WebDAV.
+
+@biyenaaa
+biyenaaa committed 10 hours ago
+ 
+Compiled notes.
+
+@biyenaaa
+biyenaaa committed 11 hours ago
+ 
+Related images for the website.
+
+@biyenaaa
+biyenaaa committed 16 hours ago
+ 
+Commits on Feb 26, 2018
+Added HTTP Methods Lecture Notes
+
+@iJeane
+iJeane committed 19 hours ago
+ 
+Added references.
+
+@biyenaaa
+biyenaaa committed 20 hours ago
+ 
+Added sources.
+
+@biyenaaa
+biyenaaa committed 20 hours ago
+ 
+Update Reference(HTML versions).txt
+
+@Sherlea
+Sherlea committed 20 hours ago
+Verified   
+Added HTML(Versions).docx
+
+@Sherlea
+Sherlea committed 20 hours ago
+Verified   
+Deleted HTML(Versions).docx
+
+@Sherlea
+Sherlea committed 20 hours ago
+Verified   
+Added HTML verions and Reference(HTMLversions)
+
+@Sherlea
+Sherlea committed 21 hours ago
+Verified   
+Added resources.
+
+@biyenaaa
+biyenaaa committed 21 hours ago
+ 
+Added HTTP Extensions- WebDAV.
+
+@biyenaaa
+biyenaaa committed 21 hours ago
+ 
+Update References.txt
+
+@rox65
+rox65 committed 21 hours ago
+Verified   
+Append Your references here!!
+
+@tedtower
+tedtower committed 21 hours ago
+Verified   
+Add files via upload
+
+@rox65
+rox65 committed 22 hours ago
+Verified   
+Delete HTML COMPONENTS.docx
+
+@rox65
+rox65 committed 22 hours ago
+Verified   
+Add files via upload
+
+@rox65
+rox65 committed 22 hours ago
+Verified   
+Added My Outline Notes  …
+
+@tedtower
+tedtower committed 22 hours ago
+Verified   
+Add files via upload
+
+@rox65
+rox65 committed a day ago
+Verified   
+Added README.TXT
+
+@iJeane
+iJeane committed a day ago
+ 
+Updated the Home HTML and CSS files
+
+@tedtower
+tedtower committed a day ago
+Verified   
+Commits on Feb 18, 2018
+Added homepage
+
+@iJeane
+iJeane committed 9 days ago
+ 
+Changed entrance background
+
+@iJeane
+iJeane committed 9 days ago
+ 
+Added a entrance page
+
+@iJeane
+iJeane committed 9 days ago
+ 
+Update README.md
+
+@iJeane
+iJeane committed 9 days ago
+Verified   
+Commits on Feb 14, 2018
+Initial commit
+
+@tedtower
+tedtower committed 13 days ago
