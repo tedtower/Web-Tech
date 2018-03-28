@@ -27,3 +27,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
 https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax#CSS_statements
 https://www.sitepoint.com/introduction-css-shorthand/
 https://www.sitepoint.com/vendor-specific-properties/
+https://modernizr.com
+https://learn.shayhowe.com/advanced-html-css/preprocessors/
+https://learn.shayhowe.com/advanced-html-css/preprocessors/
+https://remysharp.com/2010/10/08/what-is-a-polyfill
+https://www.upwork.com/hiring/development/bootstrap-vs-foundation-which-framework-is-right-for-you/
