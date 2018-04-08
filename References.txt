@@ -32,3 +32,5 @@ https://learn.shayhowe.com/advanced-html-css/preprocessors/
 https://learn.shayhowe.com/advanced-html-css/preprocessors/
 https://remysharp.com/2010/10/08/what-is-a-polyfill
 https://www.upwork.com/hiring/development/bootstrap-vs-foundation-which-framework-is-right-for-you/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+https://www.w3schools.com/js/js_function_closures.asp
