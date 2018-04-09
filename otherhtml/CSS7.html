@@ -1,0 +1,91 @@
+<section id=”css-declarations”><header><h2>CSS Preprocessors</h2></header>
+
+<p>A preprocessor is a program that converts one type of data to another. CSS Preprocessors generate CSS using a custom language syntax that typically includes features that don’t exist in pure CSS. This way, writing code is made easier and extended with more features and assets. </p>
+
+<div>
+<h3>SASS (Syntactically Awesome Style Sheets)</h3>
+
+<p>Sass is a scripting language that when compiled, is converted to CSS. The designer and developer of this scripting language are Hampton Caitlin and Natalie Weizenbaum, respectively. Later, SassScript was created. It is an extension of Sass- a scripting language itself. The separation of code blocks and rules is possible by using indentation and newline characters. Several mechanisms observed in traditional programming languages like object-oriented languages are available extensions.</p>
+
+<h4>Variables</h4>
+<p>Sass allows the initialization of variables. Variables are declared using a dollar sign ($) and assigned with a colon (:). Numbers (including units), String (with or without quotes), Colors (names), and Boolean data types are supported.</p>
+	
+	<img  src = ”/images/code1.jpg” >
+
+	<p>Would compile to:</p>
+
+	<img  src = ”/images/code2.jpg” >
+
+	 
+<h4>Nesting</h4>
+<p>Nesting inserts nested code within each other. This way, visual hierarchy can be easily noticed.</p>
+
+	<img  src = ”/images/code3.jpg” >
+<br>
+Would compile to:
+<br>
+<img  src = ”/images/code4.jpg” >
+
+
+
+
+
+
+<h4>Loops</h4>
+<p>The loops @for, @each, and @while, can be used to apply different styles to similar elements through iteration.</p>
+
+	<img  src = ”/images/code5.jpg” >
+<br>
+Would compile to:
+<br>
+<img  src = ”/images/code6.jpg” >
+
+	
+<h4>Arguments</h4>
+<p>Mixin supports arguments. This is a set of definitions that are compiled based on other parameters or rules.</p>
+
+	<img  src = ”/images/code7.jpg” >
+<br>
+Would compile to:
+<br>
+<img  src = ”/images/code8.jpg” >
+
+
+<h4>Selector Inheritance</h4>
+<p>The @extend keyword is used when you want to share a general style among different elements without the need of using that block of code. This way, inheritance can be achieved.</p>
+
+	<img  src = ”/images/code9.jpg” >
+<br>
+Would compile to:
+<br>
+<img  src = ”/images/code10.jpg” >
+</div>
+	
+
+<div>
+<h3>CSS Frameworks</h3>
+<p>A CSS Framework is a package of predefined files and folders of code that aims for easier and more standard-compliant web design. Through frameworks, CSS functionalities can be reused, extended, and customized.</p>
+
+<h4>Bootstrap</h4>
+<p>Bootstrap is basically a free front-end framework that includes various HTML and CSS design templates and JavaScript plugins. This allows you to use existing templates for forms, buttons, navigation, tables, and many more including being able to create responsive designs. It was developed by Mark Otto and Jacob Thornton.</p>
+
+<h4>Foundation</h4>
+<p>Foundation, an internal style guide built and maintained by ZURB, is a free and responsive front-end framework that provides HTML and CSS design components, templates, code snippets and many more. It includes other interface elements such as buttons, navigation, and typography. It was built with Sass, making it easy to style and extend.</p>
+</div>
+
+<div>
+<h3>CSS Polyfills</h3>
+<p>A polyfill provides an extension of a browser’s technology that isn’t provided natively but developers expect it to be. It is a piece of code or plugin that flattens the API landscape.</p>
+
+<h4>Modernizr</h4>
+<p>Modernizr is a Javascript library that has the ability of detecting implemented features of HTML5 and CSS3 in different browsers. This allows developers to maximize new features that a browser offers and also have a fallback when browsers do not. Instead of looking into the properties of the browser, feature detection is able to recognize what a browser supports.</p>
+
+<p>Feature detection is more reliable by creating tests for more than 250 features. These results are then stored in a JavaScript object called Modernizr. Classes to the HTML element are also added based on features that are and are not natively supported. Feature detection involves creating an element with a specific style instruction then retrieving that setting. If a web browser supports that feature, it will return something sensible since it understands the instruction. Otherwise, nothing or “undefined” is returned.</p>
+</div>
+</section>
+
+
+
+
+
+
