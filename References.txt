@@ -35,3 +35,4 @@ https://www.upwork.com/hiring/development/bootstrap-vs-foundation-which-framewor
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 https://www.w3schools.com/js/js_function_closures.asp
 http://www.javascriptkit.com/javatutors/oopjs2.shtml
+https://www.w3schools.com/js/js_window.asp
