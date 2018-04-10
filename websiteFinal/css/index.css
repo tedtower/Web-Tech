@@ -29,7 +29,6 @@ body{
 }
 #logo{
     height: 100%;
-    width: auto;
 }
 #nav img{
     width: 55x;
@@ -119,10 +118,6 @@ a{
     background-color:white;
     margin: 0 3%;
     display: block;
-}
-
-#www{
-    display:block;
 }
 
 #http-version-history div{
