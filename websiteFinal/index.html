@@ -8,7 +8,6 @@
     </head>
     <body>
         <!-- Navigation Bar -->
-
         <div id="nav">
                 <div id="logo" class="nav-content"><img src="images/logo.png" alt="website logo">
                 </div>
@@ -291,6 +290,54 @@
                         </div>
                     </div>
                 </div>
+                <div id="css" class="main-content">
+                  <div class="notes-content">
+                      <h2>Pseudo Classes</h2>
+                      <p>Pseudo-class is introduced to a selector that specifies an abstract state or a certain characteristic of the specified element. Such pseudo class are placed before an element and a colon (:). The syntax for implementing css with pseudo classes&#58;</p>
+                      <pre>
+                  element/id/class:pseudoclass{
+                    property: value;
+                  }
+                      </pre>
+                      <p>For instance, a pseudo class will be added to a link in such a way that when the cursor will hit the area wherein the link is located, the link will change its characteristic.</p>
+                      <pre>
+                  a:hover {
+                    color: white;
+                  }
+                      </pre>
+                      <p>This means that every anchor element in HTML will change the font color to white when it is hovered. There are other common pseudo classes that are used to style hyperlinks like :link (used for selecting unvisited links), :visited (used for selecting visited links), :active (used for selecting and styling links that are being opened), and :focus (used for styling focused links). :hover and :focus pseudo classes are called “user action pseudo-classes” since it involves user to act on the site in order for the classes to work visually.</p>
+                      <p>Link pseudo classes are case-insensitive. However, the best practice to write pseudo class names are all in lowercase. There is also an order in implementing link pseudo classes. Due to specificity of CSS, links can be matched to multiple selectors at the same time. For instance, when a user clicks the link, :hover and :active is matched by the link because the cursor is at the area of the link at the same time the link is being activated. So by default, the order of the link pseudo classes is in ascending order of&#58;</p>
+                      <pre>
+                  a { }
+                  a:link { }
+                  a: visited { }
+                  a: hover { }
+                  a: focus { }
+                  a: active { }
+                      </pre>
+                      <p>A pseudo class like :target selects elements with element ID that matches the ID from the current URL of the website. For instance, when the user accessed the site at URL www.example.com/#about with a div element with an ‘about’ ID in HTML and a selector #about:target in CSS, the css rule in #about:target is implemented since the selector and the current ID in URL matches. In this case, the div that has an ID of ‘about’ turns the background to gray.</p>
+                      <pre>
+                  #about:target{
+                    background-color: gray;
+                  }
+                      </pre>
+                      <p>There are also pseudo classes that can change the user experience of users or the functionality of the website like :enabled, :disabled, :checked, and :indeterminate. For the :enabled pseudo class, it selects user interface elements that are in default enabled state and can be used while for the :disabled pseudo class, it selects user interface elements that have an attribute of disabled and cannot be accessed. For the :checked pseudo class, it selects checkboxes and radio buttons that are checked. As for :indeterminate pseudo class, it selects radio buttons that are neither chosen or not chosen also known as purgatory state wherein the page loads with radio buttons but doesn’t have default attributes.</p>
+                      <p>Structural pseudo classes select based elements based on the document tree and it cannot be represented by any other selectors. The starting index is 1. :root pseudo class matches &lt;html&gt; element since this is the root element in HTML documents. For example, we will change the background color of the root element &lt;html&gt; to black.</p>
+                      <pre>
+                  :root {
+                    background-color: black;
+                  }
+                      </pre>
+                      <p>:empty matches any element that has no value inside it or children. This means that the data length of the element is zero. For example, we will add a blue dotted border to all empty &lt;p&gt; elements.</p>
+                      <pre>
+                  p:empty {
+                    border: 2px dotted blue;
+                  }
+                      </pre>
+                      <p>:first-child pseudo class matches the first child element of it’s parent element while the :last-child pseudo class matches the last child of its parent element. :only-child pseudo class matches the elements that are the only child of its parent and also doesn’t have children element/s. :nth-child(Ax+B) pseudo class matches elements from the pattern given at Ax+B as example. There are others like :first-of-type, :last-of-type, :only-of-type, :nth-of-type pseudo class selectors that pertains to the only elements on the document tree.</p>
+                      <p>Negation pseudo class like :not represents elements that are not represented by its arguments. It can be also added inside an element tag in HTML negating the content of the element and can be also added in CSS. This pseudo class can negate a negation which is makes it affirmative. </p>
+                  </div>
+                </div>
                 <div id="java" class="main-content">
                   <div class="notes-content">
                       <h2>Javascript</h2>
@@ -318,7 +365,7 @@
                     &lt;/head&gt;
                     &lt;body&gt;
                         &lt;script&gt;
-                        		//To do commands… below the body
+                        	//To do commands… below the body
                         &lt;/script&gt;
                     &lt;/body&gt;
                 &lt;/html&gt;
