@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Group 8 : WebTech 2018</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        
+        <div id="nav">
+                <div id="logo" class="nav-content"><img src="images/logo.png" alt="website logo">
+                </div>
+                <div id="navlist" class="nav-content">
+                    <ul>
+                        <li><a>Lecture Notes</a></li>
+                        <li><a>Quizzes</a></li>
+                        <li><a>About Us</a></li>
+                    </ul>
+                </div>
+        </div>
+        
+        
+        <!-- Body -->
+        <div id="body">
+            
+            <!-- List of Lecture Notes -->
+            <div id="notesNav">
+                <ul id="notes-category">
+                    <li><a href="#www" id="www-btn" class="notes">World Wide Web</a></li>
+                    <li><a href="#http" id="http-btn" class="notes" >HTTP</a></li>
+                    <li><a href="#html" id="html-btn"class="notes" >HTML</a></li>
+                    <li><a href="#css" id="css-btn" class="notes" >CSS</a></li>
+                    <li><a href="#java" id="java-btn" class="notes" >Javascript</a></li>
+                </ul>
+            </div>
+            
+            <!-- Main Body -->
+            <div>
+                <div id="www" class="main-content">
+                    <div class="notes-content">
+                        <h2>World Wide Web (WWW)</h2>
+                        <p>The World Wide Web, or the web, was invented by Tim Berners-Lee in 1989. It is a collection of web resources and applications that are allowed access to via the internet. The Web was invented originally for the purpose of automatic sharing of information of scientists around the world, but now has evolved to provide many more services.</p>
+                        <p>The Web is under a client-server network architecture in which the server provides what the clients requests.</p>
+                    </div>
+                    <div class="notes-content">
+                        <h2>Server</h2>
+                        <p>a computer/computer program that provides services or commodities and manages access to those resources or services in a network.</p>
+                        <ul>
+                            <li><p>Web server – can refer to either or both a hardware and/or a software. As a hardware, it is a computer that houses web resources such as HTML, CSS, JavaScript files that are accessible by clients. As a software, it is an application that runs in a computer that manages or controls access to web resources over the HTTP (or other related protocols). It waits for client requests and sends what are requested.</p></li>
+                        </ul>
+                    </div>
+                    <div class="notes-content">
+                        <h2>Client</h2>
+                        <p>is a computer that is capable of acquiring information and applications from a server. A client can obtain resources via:</p>
+                        <ul>
+                            <li><p>Web Browser – an application that is used to retrieve and render web resources for the user.</p></li>
+                            <li><p>Spider – a spider or a “crawler” is a program that crawls the web and retrieves web resources.</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="http" class="main-content">
+                    <div class="notes-content">
+                        <h2>HTTP</h2>
+                        <p>HTTP is an abbreviation of HyperText Transfer Protocol. It is an application-layer protocol used for transmitting hypermedia documents like HTML. It runs in a client-server computing model where the client requests for a specific web content and the server provides it. Moreover, it defines the procedures and rules that the client and server follows for transmitting information resources.</p>
+                    </div>
+                    <div id="http-version-history" class="notes-content">
+                        <h2>HTTP Version History</h2>
+                        <div>
+                            <div>
+                                <h3><a>HTTP/0.9</a></h3>
+                                <h3><a>HTTP/1.0</a></h3>
+                                <h3><a>HTTP/1.1</a></h3>
+                                <h3><a>HTTP/2.0</a></h3> 
+                            </div>
+                            <div>
+                                <p>The initial version of the HTTP. Client requests consist only of a single request line (&#60;Request Method&#62; &#60;path of the document&#62;). It supports only the GET method for retrieving web resources. The web resources supported in this version are HTML files only. Lastly, the TCP/IP connection between the server and the client is terminated immediately after the document has been transmitted.</p>
+                                <p>Added support to header fields for both request and response headers (e.g. HTTP version number, Status Code, Content-type) which allows the transmission of not only HTML files but also of scripts, stylesheets, and Multimedia content. This version of HTTP also allowed support for the HEAD and POST methods.</p>
+                                <p>This standardized protocol was published in early 1997. It introduced many improvements from the past version. Persistent connections (Keep-Alive), pipelining, content negotiation, etc. There were also new methods supported in this version, namely, PUT, DELETE, TRACE, and OPTIONS.</p>
+                                <p>The latest version of HTTP. The specifications for this version was published in May 2015 by the IETF. The primary goals for this version are to minimize protocol overhead, reduce latency by multiplexing, and add support for server push and request prioritization.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notes-content">
+                        <h2>HTTP Request Line</h2>
+                        <p>Request Lines specifies the method token or method (e.g. GET, PUT…) followed by the request URI then the HTTP Protocol that is in use.</p>
+                        <div><div><p>&#60;Request Method&#62; &#60;Space&#62; &#60;Request-URI&#62; &#60;Space&#62; &#60;HTTP/Version&#62;</p></div></div>
+                    </div>
+                    <div class="notes-content">
+                        <h2>Message Headers</h2>
+                        <div>
+                            <div>
+                                <h3>General Header Fields</h3>
+                                <p>It has a general applicability for either both response message or request</p>
+                            </div>
+                            <div><img></div></div>
+                        <div>
+                            <div>
+                                <h3>Request Header Fields</h3>
+                                <p>It has an applicability for request messages only.</p>
+                            </div>
+                            <div><img></div>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Response Header Fields</h3>
+                                <p>It has an applicability for response messages only.</p>
+                            </div>
+                            <div><img></div>
+                        </div>
+                        <div>
+                            <div>
+                                <h3>Entity Header Fields</h3>
+                                <p>It determines the meta-information with regards to the entity-body. If nothing is present, the request identify about the source.</p>
+                            </div>
+                            <div><img></div>
+                        </div>
+                    </div>
+                    <div class="notes-content">
+                        <h2>Request Methods</h2>
+                        <p>HTTP has a set of methods to signify the actions being done on resources. HTTP methods are also called as “HTTP verbs”. Each of the methods have different actions and some of them are similar.</p>
+                        <div>
+                            <div>
+                                <a>GET</a>
+                                <a>HEAD</a>
+                                <a>POST</a>
+                                <a>PUT</a>
+                                <a>DELETE</a>
+                                <a>PATCH</a>
+                                <a>TRACE</a>
+                                <a>OPTIONS</a>
+                            </div>
+                            <div>
+                                <p id="get">This method is used to redeem or read a representation of resources. If the method successfully retrieve, the method returns a representation in XML, JSON and an HTTP response code of 200 (OK). GET corresponds to Read in CRUD operations.</p>
+                                <p id="head">This method is similar to GET method but without its message-body in response. This method is used to retrieve only meta-information in response headers. This method is useful for verifying link availability.</p>
+                                <p id="post">This is method is used for sending data/resource to the API server. The method will request for the server to accept datum/data from the client. Upon successful appliance, it will return HTTP code 200 (OK) for updating and 201 (CREATED) for creating. Otherwise, if there are errors concerning posting, it will return HTTP code like 204 (NO CONTENT).</p>
+                                <p id="put">This method is used to create or update resources from the client to the API server. Moreover, the method is to URI containing the value of non-existent resource ID. Upon successful request, it will return HTTP codes like 200 (OK) for updating and 201 (CREATED) for creating. Otherwise, if there are errors with regards to understanding or implementing, it will return HTTP code like 501 (NOT IMPLEMENTED).</p>
+                                <p id="delete">This method is simply to delete a resource/resources identified by a URI. Upon successful deletion of resource, it will return HTTP code like 200 (OK) with a response body. Otherwise, HTTP code like 204 (NO CONTENT) will be returned if there are no response body. If the request is for a non-existent resource, it will return HTTP code like 404 (NOT FOUND).</p>
+                                <p id="patch">This method is used to apply partial modifications to a resource. Moreover, the request only needs the changes contained to a resource. PATCH is similar to PUT but the request body contains a set of instructions that tells how the resource to be modified to produce a new version.</p>
+                                <p id="trace">This method is for the client to see things that are being received and the data is used for testing and diagnosing. The request reflects back the message from client to the server and returns back HTTP code like 200 (OK).</p>
+                                <p id="options">This method represents a request for information about the communication options available on the request/response chain identified by the Request-URI. This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating a resource retrieval.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notes-content">
+                        <h2>Request Method Properties</h2>
+                        <div>
+                            <div>
+                                <h3>Safe Methods</h3>
+                                <p>&#45; Are considered safe when their request semantics are read-only. This means that there should be no change of state to the server.</p>
+                                <p>&#45; The methods considered safe are the GET, HEAD, TRACE, and OPTIONS methods.</p>
+                            </div>
+                            <div>
+                                <h3>Idempotent Methods</h3>
+                                <p>&#45; If multiple identical requests are sent to the server, the effect will be the same as the first issuance of such request.</p>
+                                <p>&#45; The methods considered idempotent are the PUT, DELETE, and the safe request methods.</p>
+                            </div>
+                            <div>
+                                <h3>Cacheable Methods</h3>
+                                <p>&#45; As the term implies, request methods are termed to be cacheable if server responses to those requests are allowed to be stored for reuse.</p>
+                                <p>&#45; Only the GET, HEAD, and POST methods are cacheable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notes-content">
+                        <h2>HTTP Response</h2>
+                        <div>
+                            <div>
+                                <h3>Status Line</h3>
+                                <p>Consists of the protocol version, status code and its corresponding Reason&#45;Phrase respectively.</p>
+                                <div><p>&#45; &#60;Protocol&#62;/&#60;Version&#62; &#60;Space&#62; &#60;Status Code&#62; &#60;Space&#62; &#60;Reason Phrase&#62;</p></div>
+                            </div>
+                            <div>
+                                <h3>Status Codes</h3>
+                                <p>The status code is a result code that consists of a 3-digit integer of the attempt to understand and satisfy the request.</p>
+                                <div>
+                                    <p>&#45; Fist-digit : Class of response</p>
+                                    <ul>
+                                        <li>1xx: Informational</li>
+                                        <li>2xx: Success </li>
+                                        <li>3xx: Redirection</li>
+                                        <li>4xx: Client error</li>
+                                        <li>5xx: Server error</li>
+                                    </ul>
+                                    <p>&#45; The reason phrase is a textual description of the associated status code.</p>
+                                </div>
+                                <div>
+                                    <div id="1xx">
+                                        <ul>
+                                            <li>100: Continue</li>
+                                            <li>101: Switching Protocols</li>
+                                        </ul>
+                                    </div>
+                                    <div id="2xx">
+                                        <ul>
+                                            <li>200: OK</li>
+                                            <li>201: Created</li>
+                                            <li>202: Accepted</li>
+                                            <li>203: Non-Authorative Information</li>
+                                            <li>204: No Content</li>
+                                            <li>205: Reset Content</li>
+                                            <li>206: Partial Content</li>
+                                        </ul>
+                                    </div>
+                                    <div id="3xx">
+                                        <ul>    
+                                            <li>300: Multiple Choices</li>
+                                            <li>301: Moved Permanently</li>
+                                            <li>302: Found</li>
+                                            <li>303: See Other</li>
+                                            <li>304: Not Modified</li>
+                                            <li>305: Use Proxy</li>
+                                            <li>307:  Temporary Redirect</li>
+                                        </ul>
+                                    </div>
+                                    <div id="4xx">
+                                        <ul>
+                                            <li>400: Bad Request</li>
+                                            <li>401: Unauthorized</li>
+                                            <li>402: Payment Required</li>
+                                            <li>403: Forbidden</li>
+                                            <li>404: Not Found</li>
+                                            <li>405: Method Not Allowed</li>
+                                            <li>406: Not Acceptable</li>
+                                            <li>407: Proxy Authentication Required</li>
+                                            <li>408: Request Timeout</li>
+                                            <li>409: Conflict</li>
+                                            <li>410: Gone</li>
+                                            <li>411: Length Required</li>
+                                            <li>412: Precondition Failed</li>
+                                            <li>413: Payload Too Large</li>
+                                            <li>414:URI Too Long</li>
+                                            <li>415: Unsupported Media Type</li>
+                                            <li>416: Range Not Satisfiable</li>
+                                            <li>417: Expectation Failed</li>
+                                            <li>426: Upgrade Required</li>
+                                        </ul>
+                                    </div>
+                                    <div id="5xx">
+                                        <ul>
+                                            <li>500: Internal Server Error</li>
+                                            <li>501: Not Implemented</li>
+                                            <li>502: Bad Gateway</li>
+                                            <li>503: Service Unavailable</li>
+                                            <li>504: Gateway Timeout</li>
+                                            <li>505: HTTP Version Not Supported</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="html" class="main-content">
+                    <div class="notes-content">
+                        <h2>HTML</h2>
+                        <p>It provides the means to create online documents with multimedia elements, easily retrieve information from remote locations and design forms for transaction processes.</p>
+                        <p>The structure of pages in HTML uses markup.  Its elements label objects such as paragraphs, lists and tables.</p>
+                    </div>
+                    <div class="notes-content">
+                        <h2>HTML Versions</h2>
+                        <div>
+                            <div>
+                                <a>HTML 1.0</a>
+                                <a>HTML 2.0</a>
+                                <a>HTML 3.2</a>
+                                <a>HTML 4.0</a>
+                                <a>HTML 4.01</a>
+                                <a>XHTML</a>
+                                <a>XHTML 1.0</a>
+                                <a>XHTML 1.1</a>
+                                <a>HTML 5</a>
+                            </div>
+                            <div>
+                                <p id="html1">HTML 1.0 first version released for HTML. There are only few people knows website creation and the language are limited. There are elements like header, paragraph, list, figures, tables, forms, literal or preformatted text and math formula to create simple html file</p>
+                                <p id="html2">HTML 2.0 first official standard for HTML. In RFC 1866, contains the specifications for HTML 2.0. There are some specifications for the HTML elements, like having a start&#45;tag followed by the content then an end&#45;tag. Some elements also do not need end&#45;tag, like the BR tag. In the specification the attribute names and elements names are not case&#45;sensitive but the entities are case sensitive.</p>
+                                <p id="html3.2">From the W3C Recommendation, the structure of HTML documents starts with the &#60;!DOCTYPE&#62; then followed with html element and head element which contains title element. After the head element is the body element which contains the content. The head element contents are title element, style element, link element and meta&#45;element. In HTML 3.2, table element and form elements were supported. It also supports CSS or Cascading Style Sheet.</p>
+                                <p id="html4.0">HTML 4.0 was given a code&#45;name COUGAR. It was developed by the W3C HTML Working Group, which includes Adobe, Hewlett Packard, IBM, Microsoft, Netscape Communications Corporation, Novell, SoftQuad, and Sun Microsystems.  HTML 4.0 was recommended by W3C in 1997 December and in April 1998 became official standard.</p>
+                                <p id="html4.01">The documentation was revised and it was entitled as HTML 4.01. In this version the naming conventions were different, the elements are written in uppercase letters while the attributes name are written in lowercase letters. In the specification includes the accessibility, table model, compound documents, style sheets, scripting and printing.</p>
+                                <div id="xhtml">
+                                    <p>&#45; The reformulation of HTML in XML. The existence of XHTML was intended to facilitate the introduction of new HTML elements and/or attributes, provide interoperability between HTML-based and XML&#45;based systems, and leverage the use of XML tools in creating, editing, and parsing HTML.</p>
+                                    <p>&#45; The XHTML formulation was intended to reformat the malformed, non-standard HTML to a well-formed, valid world of XML.</p>
+                                </div>
+                                <p id="xhtml1.0">First document type in the XHTML. XHTML documents are XML conforming which it is readily viewed, edited, and validated. XML is shorthand name for Extensible Markup Language. In this version, it is well-formedness concept which all elements must be in nested elements. The naming for elements and attribute are lower case. Non-empty elements, end tags are required.  Attribute values must be quoted, terminated empty elements, style and script elements and more.</p>
+                                <div id="html5">
+                                    <p>HTMl 5 was designed to address backward compatibility issues that hindered the adoption of XHTML, and to address emerging needs of modern web applications.</p>
+                                    <p>HTML5 is designed for the web, both now and in the future. There are new elements included such as section element, article, main, aside, hgoup, header, footer, nav, figure and many more. There are also new attributes like download, ping, charset, autofocus and others. There are changes in other elements and attributes. And new APIs, changed APIs and extensions are included.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("notesNav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+    <footer>
+    </footer>
+</html>

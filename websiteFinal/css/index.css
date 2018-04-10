@@ -1,0 +1,157 @@
+@font-face{
+    font-family:PoiretOne;
+    src: url(fonts/Poiret_One/PoiretOne-Regular.ttf);
+}
+
+@font-face{
+    font-family:Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#nav{
+    background-color: black;
+    padding: 5px;
+    color:whitesmoke;
+    width: 100%;
+    height:  50px;
+    
+}
+#nav div:first-child{
+    float: left;
+    
+}
+#logo{
+    height: 100%;
+    width: auto;
+}
+#nav img{
+    width: 55x;
+    height: 40px;  
+    vertical-align: middle;
+}
+#nav div{
+    display: inline-block;
+    vertical-align: middle;
+}
+#nav ul li{
+    display: inline;
+    margin: 8px;
+    background-color: none;
+    
+}
+#navlist{
+    float:right;
+    padding: 0px 5px;
+    height: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#notesNav{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 3px -2px rgba(0,0,0,.2);
+}
+#notes-category{
+    text-align: center;  
+}
+
+.notes{
+    position: static;
+    background-color: #f1f1f1;
+    color: darkslategrey;
+    padding: 15px 20px;
+    font-size: 25px;
+    border-style:none;
+}
+.notes:hover{
+    background-color: #DCDCDC;
+    color: black;
+}
+.notes:active{
+    background-color: #DCDCDC;
+    color: black;
+}
+
+#notes-category{
+    list-style: none;
+}
+#notes-category li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+
+.main-content{
+    display: none;
+}
+.main-content:target{
+    display: block;
+}
+.main-content h2{
+    font-family: PoiretOne;
+    font-size: 28px;
+}
+.main-content h3{
+    font-family: Roboto;
+    font-size: 22px;
+}
+.main-content p{
+    font-family: Roboto;
+    font-size: 16px;
+    padding : 0 3%;
+}
+
+.notes-content{
+    background-color:white;
+    margin: 0 3%;
+    display: block;
+}
+
+#www{
+    display:block;
+}
+
+#http-version-history div{
+    width: 100%;
+    height: 100%;
+}
+#http-version-history div div{
+    display: inline-block;
+    width: auto;
+}
+#http-version-history div div:first-child{
+    float:left;
+    height: 100%;
+    width: auto;
+}
+#http-version-history div div:first-child a{
+    position: static;
+    background-color: lightgray;
+    color: black;
+    padding: 15px 20px;
+    font-size: px;
+    border-style:none;
+}
+#http-version-history div div:first-child a:hover{
+    background-color: darkgrey;
+    color: black;
+}
+#http-version-history div div:nth-of-type(2){
+    clear:right;
+    width: auto;
+    height: 100;
+}
