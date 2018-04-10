@@ -8,7 +8,7 @@
     </head>
     <body>
         <!-- Navigation Bar -->
-        
+
         <div id="nav">
                 <div id="logo" class="nav-content"><img src="images/logo.png" alt="website logo">
                 </div>
@@ -20,11 +20,11 @@
                     </ul>
                 </div>
         </div>
-        
-        
+
+
         <!-- Body -->
         <div id="body">
-            
+
             <!-- List of Lecture Notes -->
             <div id="notesNav">
                 <ul id="notes-category">
@@ -35,7 +35,7 @@
                     <li><a href="#java" id="java-btn" class="notes" >Javascript</a></li>
                 </ul>
             </div>
-            
+
             <!-- Main Body -->
             <div>
                 <div id="www" class="main-content">
@@ -72,7 +72,7 @@
                                 <h3><a>HTTP/0.9</a></h3>
                                 <h3><a>HTTP/1.0</a></h3>
                                 <h3><a>HTTP/1.1</a></h3>
-                                <h3><a>HTTP/2.0</a></h3> 
+                                <h3><a>HTTP/2.0</a></h3>
                             </div>
                             <div>
                                 <p>The initial version of the HTTP. Client requests consist only of a single request line (&#60;Request Method&#62; &#60;path of the document&#62;). It supports only the GET method for retrieving web resources. The web resources supported in this version are HTML files only. Lastly, the TCP/IP connection between the server and the client is terminated immediately after the document has been transmitted.</p>
@@ -204,7 +204,7 @@
                                         </ul>
                                     </div>
                                     <div id="3xx">
-                                        <ul>    
+                                        <ul>
                                             <li>300: Multiple Choices</li>
                                             <li>301: Moved Permanently</li>
                                             <li>302: Found</li>
@@ -290,14 +290,77 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
+                <div id="java" class="main-content">
+                  <div class="notes-content">
+                      <h2>Javascript</h2>
+                      <p>Javascript is a fully dynamic programming language wherein it includes functionalities to when this is applied to the HTML document. Javascript was invented by Brendan Eich; who's also a co-founder of Mozilla. Javascript can be used for creating image sliders, carousels, effect layouts, and responses to any user actions. I can also be used to create apps and games through the web. Originally, javascript was created for client side to provide and develop dynamic web sites.</p>
+                  </div>
+                  <div class="notes-content">
+                      <h2>Javascript Application Program Interfaces</h2>
+                      <p>Javascript’s functionalities can be used with minimum effort thanks by the tools that developers have written on top of the core Javascript language.</p>
+                      <ul>
+                          <li><p>Core Javascript Language - The core Javascript is the base of the Javascript language that supports both on server and client side.</p></li>
+                          <li><p>Browser Object Model - Moreover on the client side, there are many APIs available like Browser APIs. They are APIs that are natively built in browsers. Not only that it can be used to expose data from the surrounding computer environment and browser but also used for complexity.</p></li>
+                          <li><p>Document Object Model - Another API that can be used to connect web pages to the Javascript is the Document Object Model API.  DOM represents a logical tree based from the document. Each branch of the tree ends has a node, and each node contains objects. In DOM, all elements from the HTML are called objects.</p></li>
+                          <li><p>Miscellaneous - There are other APIs that are not built in the browser by default. Instead, they are imported manually in the HTML document in order for them to be accessed like JQuery.</p></li>
+                      </ul>
+                  </div>
+                  <div class="notes-content">
+                      <h2>Javascript Declarations</h2>
+                      <p>Javascript can be declared in the document by many ways. First of all, it can be inline with the document. &lt;script&gt; can be added inside the &lt;head&gt; tag. This method is used when the developer wants to load the script before loading the body or the rest of the pages. The following syntax is shown below&#58;</p>
+                      <pre>
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;script&gt;
+                          	//To do commands… in the head
+                        &lt;/script&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;script&gt;
+                        		//To do commands… below the body
+                        &lt;/script&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+                    </pre>
+                    <p>Javascripts can also be created in external files with a file extension of js. They can be imported in areas just as the inline by using the &lt;script&gt; tag. The syntax in importing javascripts is shown below&#58;</p>
+                    <pre>
+                &lt;html&gt;
+                	&lt;head&gt;
+                    &lt;script src=”path/javascript.js”>&lt;/script&gt;
+                    &lt;script async src=”path/to/javascript.js”>&lt;/script&gt;
+                    &lt;script defer src=”another/path/to/javascript.js”>&lt;/script&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                      &lt;!--Some codes--&gt;
+                    &lt;script src=”path/to/other/javascript.js”>&lt;/script&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+                    </pre>
+                    <h2>Javascript Async And Defer</h2>
+                    <p>As you can see the example above inside the head tag, there are two javascripts imported with two different attributes named async a.k.a asynchronous and defer a.k.a deferred. Async attribute is used when it is desired to download the script during HTML parsing and parse will pause to execute the script when it has finished downloading. Defer attribute is used when it is desired to download the script during the HTML parsing and after the parse is finished, then the script will execute. It also can be used to execute scripts in order depending on the area in which the script has been declared. As for the normal declaration, the script will be fetched and executed first before parsing the HTML. Defer attribute can be used in inline script with the following syntax&#58;</p>
+                    <pre>
+                &lt;script defer&gt;&lt;/script&gt;
+                    </pre>
+                    <p>Some scripts are basically declared before the end of the body tag because some browser do not support the attributes async and defer.</p>
+                  </div>
+                    <div class="notes-content">
+                      <h2>Javascript</h2>
+                      <p>There are also browsers that doesn’t allow javascripts due to users disabling from the browser’s settings or browser doesn’t support them rather. So, the &lt;noscript&gt; tag in HTML allows to show alternative content for the browsers which has disabled or doesn’t support javascript. For example&#58;</p>
+                      <pre>
+                &lt;noscript&gt;
+                  &lt;h1>Javascript is disabled or not supported by this browser. Therefore, you will not experience the full features of the site.&lt;/h1&gt;
+                &lt;/noscript&gt;
+                      </pre>
+                    </div>
+                </div>
+
             </div>
         </div>
     </body>
     <script>
         window.onscroll = function() {myFunction()};
-        
+
         var navbar = document.getElementById("notesNav");
         var sticky = navbar.offsetTop;
 
