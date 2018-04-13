@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS';
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	padding: 5px 60px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+nav.black {
+	background: rgba(0,0,0,.8);
+	height: 60px;
+	padding: 5px 60px;
+}
+
+nav.black .logo {
+	font-size: 1.3vw;
+	color: #fff;
+}
+
+nav.black ul li a {
+	font-size: .9vw;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	background-color: #474F59;
+}
+
+nav .logo {
+	color: #fff;
+	padding: 15px 20px;
+	height: 60px;
+	float: left;
+	font-size: 1.2vw;
+	transition: .3s;
+}
+
+nav .logo span{
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	font-size: .8vw;
+	line-height: 60px;
+	color: #fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	transition: .3s;
+}
+
+nav ul li a:focus {
+	outline: none;
+}
+
+div.welcome {
+	width: 100%;
+	height: 50vh;
+	background-image: url(../img/bg.png);
+	background-repeat: repeat;
+	text-align: center;
+	color: #fff;
+}
+
+div.welcome img {
+	padding-top: 120px;
+}
+
+section {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+section h1 {
+	font-size: 36px;
+	margin-bottom: 0;
+}
+
+section p {
+	text-align: justify;
+	font-size: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+section#about {
+	overflow: hidden;
+	padding: 10px;
+}
+
+section#about img {
+	max-width: 15%;
+	max-height: 15%;
+	margin: 20px;
+	border-radius: 40px;
+	transition: .4s all;
+}
+
+section#about a:hover > img {
+	transform: scale(1.1);
+}
+
+#lectures:target, #about:target, #repo:target, #resources:target {
+	padding-top: 35px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px;
+}
+
+.boxes a {
+	flex: 1 0 35%;
+	padding: 30px;
+	text-decoration: none;
+	font-size: 2.3vw;
+	color: white;
+	margin: 4px; 
+	transition: .3s all;
+}
+.boxes a:hover {
+	transform: scale(1.02);
+	color: black;
+}
+#box_www {
+	background-color: #F16745;
+}
+#box_http {
+	background-color: #FFC65D;
+}
+#box_html {
+	background-color: #7BC8A4;
+}
+#box_css {
+	background-color: #4CC3D9;
+}
+#box_js {
+	background-color: #93648D;
+}
+#box_php {
+	background-color: #404040; 
+}
+
+#repo p {
+	text-align: center;
+	padding-bottom: 15px;
+}
+#repo a {
+	text-decoration: none;
+	background-color: #414852;
+	padding: 20px;
+	color: white;
+	border-radius: 15px;
+}
+
+pre {
+	font-size: 16px;
+}
+
+section ul {
+	text-align: left;
+}
