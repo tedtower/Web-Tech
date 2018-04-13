@@ -126,8 +126,9 @@ section#about a:hover > img {
 	transform: scale(1.1);
 }
 
-#lectures:target, #about:target, #repo:target, #resources:target {
-	padding-top: 35px;
+
+section.tar {
+	padding-top: 30px;
 }
 
 .boxes {
@@ -138,7 +139,7 @@ section#about a:hover > img {
 
 .boxes a {
 	flex: 1 0 35%;
-	padding: 30px;
+	padding: 25px;
 	text-decoration: none;
 	font-size: 2.3vw;
 	color: white;
