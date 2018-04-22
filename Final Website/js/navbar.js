@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('section').addClass('tar');
+	$('div').addClass('tar');
 	$("a").on('click', function(event) {
 		if (this.hash !== "") {
 			event.preventDefault();
