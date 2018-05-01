@@ -1,0 +1,4 @@
+Http Servlet References: 
+  https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletRequest.html
+  https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletResponse.html
+  https://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServlet.html
