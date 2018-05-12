@@ -1,0 +1,172 @@
+{
+    "questions": [
+        {
+            "question" : "<p>It is a small data sent by a server to a user’s web browser to tell if two request is sent form the same browser.</p>",
+            "choices" : [
+                "<input type='radio' name='q1' id='a1' value = 'q1'><label for='a1'>HTTP Cookies</label></br>",
+                "<input type='radio' name='q1' id='a2' value = 'q1'><label for='a2'>HTTP Request Data</label></br>",
+                "<input type='radio' name='q1' id='a3' value = 'q1'><label for='a3'>Bit Data</label></br>"
+            ],
+            "answer" : "a1"
+        },
+        {
+            "question" : "<p>It is used for session management.</p>",
+            "choices" : [
+                "<input type='radio' name='q2' id='b2' value = 'q2'><label for='b1'>HTTP Cookies</label></br>",
+                "<input type='radio' name='q2' id='b2' value = 'q2'><label for='b2'>HTTP Request Data</label></br>",
+                "<input type='radio' name='q2' id='b3' value = 'q2'><label for='b3'>Bit Data</label></br>"
+            ],
+            "answer" : "b1"
+        },
+        {
+            "question" : "<p>It is stored in browser memory and expire once the browser is closed.</p>",
+            "choices" : [
+                "<input type='radio' name='q3' id='c2' value = 'q3'><label for='c1'>HTTP Cookies</label></br>",
+                "<input type='radio' name='q3' id='c2' value = 'q3'><label for='c2'>HTTP Request Data</label></br>",
+                "<input type='radio' name='q3' id='c3' value = 'q3'><label for='c3'>Bit Data</label></br>"
+            ],
+            "answer" : "c1"
+        },
+        {
+            "question" : "<p>It is a java servlet used to handle HTTP requests and generate responses for a website.</p>",
+            "choices" : [
+                "<input type='radio' name='q4' id='d1' value = 'q4'><label for='d1'>HttpServlet</label></br>",
+                "<input type='radio' name='q4' id='d2' value = 'q4'><label for='d2'>JavaServlet</label></br>",
+                "<input type='radio' name='q4' id='d3' value = 'q4'><label for='d3'>HttpsServlet</label></br>"
+            ],
+            "answer" : "d1"
+        },
+        {
+            "question" : "<p>It is an interface that provides request information for HTTP servlets.</p>",
+            "choices" : [
+                "<input type='radio' name='q5' id='e1' value = 'q5'><label for='e1'>HttpServletRequest</label></br>",
+                "<input type='radio' name='q5' id='e2' value = 'q5'><label for='e2'>HttpServletResponse</label></br>"
+            ],
+            "answer" : "e1"
+        },
+        {
+            "question" : "<p>It is an interface that provides Http-specific functionality for sending responses.</p>",
+            "choices" : [
+                "<input type='radio' name='q6' id='f1' value = 'q6'><label for='f1'>HttpServletRequest</label></br>",
+                "<input type='radio' name='q6' id='f2' value = 'q6'><label for='f2'>HttpServletResponse</label></br>"
+            ],
+            "answer" : "f1"
+        },
+        {
+            "question" : "<p>It is an interface that contains all the set of methods that a servlet uses to communicate with its servlet container.</p>",
+            "choices" : [
+                "<input type='radio' name='q7' id='g1' value = 'q7'><label for='g1'>ServletContext</label></br>",
+                "<input type='radio' name='q7' id='g2' value = 'q7'><label for='g2'>ServletLibraries</label></br>"
+            ],
+            "answer" : "g1"
+        },
+        {
+            "question" : "<p>It gets configuration information from the web.xml file.</p>",
+            "choices" : [
+                "<input type='radio' name='q8' id='h1' value = 'q8'><label for='h1'>ServletContext</label></br>",
+                "<input type='radio' name='q8' id='h2' value = 'q8'><label for='h2'>ServletGet();</label></br>"
+            ],
+            "answer" : "h1"
+        },
+        {
+            "question" : "<p>Set, get, or remove attributes from the web.xml file, and provide inter-application communication.</p>",
+            "choices" : [
+                "<input type='radio' name='q9' id='i1' value = 'q9'><label for='i1'>ServletContext</label></br>",
+                "<input type='radio' name='q9' id='i2' value = 'q9'><label for='i2'>ServletSet();</label></br>"
+            ],
+            "answer" : "i1"
+        },
+        {
+            "question" : "<p>It is a method of ServletContext Interface that returns the names of the context’s initialization parameters.</p>",
+            "choices" : [
+                "<input type='radio' name='q10' id='j1' value = 'q10'><label for='j1'>getInitParameterNames()</label></br>",
+                "<input type='radio' name='q10' id='j2' value = 'q10'><label for='j2'>getInitParameter()</label></br>"
+            ],
+            "answer" : "j1"
+        },
+        {
+            "question" : "<p>It is a method of ServletContext Interface that removes the attribute with the given name from the servlet context.</p>",
+            "choices" : [
+                "<input type='radio' name='q11' id='k1' value = 'q11'><label for='k1'>removeAttribute(String name)</label></br>",
+                "<input type='radio' name='q11' id='k2' value = 'q11'><label for='k2'>deleteAttribute(String name)</label></br>"
+            ],
+            "answer" : "k1"
+        },
+        {
+            "question" : "<p>It is responsible for creating the scripts on a web server that handles the responses made for a client’s request to the website.</p>",
+            "choices" : [
+                "<input type='radio' name='q12' id='l1' value = 'q12'><label for='l1'>Server-side Scripting </label></br>",
+                "<input type='radio' name='q12' id='l2' value = 'q12'><label for='l2'>Client-side Scripting</label></br>"
+            ],
+            "answer" : "l1"
+        },
+        {
+            "question" : "<p>Java objects that are intended to play the role of server components in client-server communications.</p>",
+            "choices" : [
+                "<input type='radio' name='q13' id='n1' value = 'q13'><label for='n1'>Java Servlets</label></br>",
+                "<input type='radio' name='q13' id='n2' value = 'q13'><label for='n2'>Java server</label></br>"
+            ],
+            "answer" : "n1"
+        },
+        {
+            "question" : "<p>This refers to the process that includes the creation of a servlet up to its destruction.</p>",
+            "choices" : [
+                "<input type='radio' name='q14' id='o1' value = 'q14'><label for='o1'>Servlet Life Cycle </label></br>",
+                "<input type='radio' name='q14' id='o2' value = 'q14'><label for='o2'>Server Life Cycle</label></br>"
+            ],
+            "answer" : "o1"
+        },
+        {
+            "question" : "<p>It is similar to JavaScript that allows a web developer, to embed some programs into the HTML code of a web page.</p>",
+            "choices" : [
+                "<input type='radio' name='q15' id='p1' value = 'q15'><label for='p1'>PHP</label></br>",
+                "<input type='radio' name='q15' id='p2' value = 'q15'><label for='p2'>HTML</label></br>",
+                "<input type='radio' name='q15' id='p3' value = 'q15'><label for='p3'>CSS</label></br>"
+            ],
+            "answer" : "p1"
+        },
+        {
+            "question" : "<p>It is used for web development but is also used as a general-purpose programming language.</p>",
+            "choices" : [
+                "<input type='radio' name='q16' id='q1' value = 'q16'><label for='q1'>PHP</label></br>",
+                "<input type='radio' name='q16' id='q2' value = 'q16'><label for='q2'>HTML</label></br>",
+                "<input type='radio' name='q16' id='q3' value = 'q16'><label for='q3'>CSS</label></br>"
+            ],
+            "answer" : "q1"
+        },
+        {
+            "question" : "<p>It is an asynchronous event driven server-side Javascript runtime environment.</p>",
+            "choices" : [
+                "<input type='radio' name='q17' id='r1' value = 'q17'><label for='r1'>Node.js</label></br>",
+                "<input type='radio' name='q17' id='r2' value = 'q17'><label for='r2'>ASP.net</label></br>"
+            ],
+            "answer" : "r1"
+        },
+        {
+            "question" : "<p>A component of Node.js that are imported for use in source code for easier and faster coding.</p>",
+            "choices" : [
+                "<input type='radio' name='q18' id='s1' value = 'q18'><label for='s1'>Modules</label></br>",
+                "<input type='radio' name='q18' id='s2' value = 'q18'><label for='s2'>Server</label></br>",
+                "<input type='radio' name='q18' id='s3' value = 'q18'><label for='s3'>Request and Response Mechanism</label></br>"
+            ],
+            "answer" : "s1"
+        },
+        {
+            "question" : "<p>A component of Node.js that listens to the requests that clients make.</p>",
+            "choices" : [
+                "<input type='radio' name='q19' id='t1' value = 'q19'><label for='t1'>Server</label></br>",
+                "<input type='radio' name='q19' id='t2' value = 'q19'><label for='t2'>Request and Response Mechanism</label></br>",
+                "<input type='radio' name='q19' id='t3' value = 'q19'><label for='t3'>Modules</label></br>"
+            ],
+            "answer" : "t1"
+        },
+        {
+            "question" : "<p>What is the right way of implementing a module?</p>",
+            "choices" : [
+                "<input type='radio' name='q20' id='u1' value = 'q20'><label for='u1'>const module = require(‘<Module Name>’)</label></br>",
+                "<input type='radio' name='q20' id='u2' value = 'q20'><label for='u2'>const module = include('<Module Name>')</label></br>",
+            ],
+            "answer" : "u1"
+        }
+    ]
+}
