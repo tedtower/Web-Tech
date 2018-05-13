@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Systems &amp; Technologies: Node.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <h1>Node.js</h1>
+            <p>Node.js is an asynchronous event driven server-side Javascript runtime environment. It was developed by Ryan Dahl in 2009. Node was designed for building scalable network dependent applications. A rich library of JavaScript modules are also provided for this platform that simplifies the development of web applications.</p>
+            <h2>Features:</h2>
+            <h3>Asynchronus</h3>
+                <p>Node.js is asynchronous such that when multiple requests come in it handles them concurrently. Moreover, when a request has been made, Node will move on to the next request even when the previous has not been finished yet. </p>
+            <h3>Event Driven</h3>
+                <p>Node is event driven because as soon as its server starts running, it initiates all variables, declares functions and waits for an event to occur. Node.js’ Event Loop listens for events and triggers a callback function.</p>
+                <p>Single Threaded but asynchronous</p>
+                <p>Where to Use Node.js</p>
+            <ul>
+                <li>I/O bound applications</li>
+                <li>Data Intensive Real-Time Applications</li>
+                <li>JSON APIs based applications</li>
+                <li>Data Streaming applications</li>
+                <li>Single Page Applications</li>
+            </ul>
+            <h3>Environment Setup</h3>
+                <p>If you are willing to set up your development environment for Node.js then you need a text editor, to develop your own Node.js applications, and the Node.js binary installable.</p>
+                <p>The Node.js installable can be downloaded from the Official website of Node.js </p>
+                <link> https://nodejs.org/en/</link>
+            <p>Run the msi file</p><br>
+             <img src="Nodes/version8msi.PNG" slt="Version 8 installer">
+            <p>or</p>
+             <img src="Nodes/version10msi.PNG" slt="Version 10 installer">
+            <p>Run the msi files and it will automatically include the Node.js to your machine’s PATH environment variable.</p>
+            <h3>Components of a Node.js application</h3>
+            <p>An application developed with Node.js consists of 3 important components:</p>
+            <ol>
+                <li>Modules – modules are imported for use in your source code for easier and faster coding. Modules are loaded by using the require directive.</li>
+                <li>Server – the server will be the one listening to the requests that clients will make.</li>
+                <li>Request and Response mechanism – when the server listens to a client’s request it generates a response as defined by the programmer in reply to the request.</li>
+            </ol>
+            <h3>Sample Code</h3>
+            <img src="Nodes/sampleCode.PNG" alt="Sample Code">
+            <p>To start the server, go to the directory of your file then run your terminal there. Issue the command : </p><br>
+            <img src="Nodes/sample.PNG" alt="Run Node.js application command"><br>
+            <img src="Nodes/serverisrunning.PNG" alt="serverisrunning.PNG">
+            <h3>Making a Request to the Server</h3>
+            <p>In any browser, open localhost:8000 and observe following result:</p><br>
+            <img src="Nodes/website.PNG" alt="hosting url on website"> <br>
+            <img src="Nodes/samplerun.PNG" alt="Sample Run">
+            <h2>Node.js – NPM</h2>
+            <p>The Node Package Manager (NPM) provides 2 main functionalities:</p>
+            <ul>
+            <li>Node.js packages and modules available via online repositories	</li>
+            <li>Utility to install packages using a machines command line, also it can do version management and Node.js packages’ dependency management.</li>
+            </ul>
+            <h3>Installing a Module using NPM</h3>
+            <p>To install a module in a command line interface issue the command</p><br>
+             <img src="Nodes/NPMModuleInstallation.PNG" alt="Install module command">
+            <p>Example of a web framework module is the express module.</p><br>
+            <img src="Nodes/NPMExpressModule.PNG" alt="Express Module Install">
+            <p>After installation you can already use the module by including this to your .js file:</p>
+            <img src="Nodes/NPMExpressModuleUse.PNG" alt="require(‘express’)">
+            <h3>Uninstalling a module</h3>
+            <p>To uninstall a Module just issue the following command:</p><br>
+            <img src="Nodes/NPMUninstallModule.PNG" alt="Uninstall module">
+            <p>To verify if you have successfully uninstalled a module you can issue the command:</p><br>
+            <img src="Nodes/NPMVerifyUninstallation.png" alt="Verify Uninstallation">
+            <h2>Node.js Callback Concept</h2>
+           <p> A callback is a function equivalent, only synchronous. When a task is completed, a callback function is called. Node.js makes extensive use of callback functions. All Node.js APIs support callbacks.
+            For example, a function that is programmed to read the contents of a file and return the execution control to the environment immediately in order for the proceeding instructions can be executed. So no code blocking will happen, once the file I/O completes, the callback function is called while it is being passed. This is why Node.js is highly scalable, it can process multiple requests without waiting for a function to return the results.
+            Blocking Code Example</p>
+           <p> To simulate the situation above, first, create a text file named file.txt:</p><br>
+            <img src="Nodes/fileTXT.PNG" alt="File Creation">
+           <p> Then create a js  file named demo.js:</p><br>
+            <img src="Nodes/BlockingCodeDemo.png" alt="Blocking Code">
+            <p>Then run the js file that you have created and verify the output:</p><br>
+            <img src="Nodes/BlockingCodeDemoRun.PNG" alt="Demonstration">
+            <h3>Non-Blocking Code Example</h3>
+            <img src="Nodes/NonBockingCodeExampleDemo.PNG" alt="Non-Blocking code">
+           <p>And run the js file and verify the output:</p>
+            
+    <div class="subtopic">
+    <h2>Node.js-Event Loop</h2>
+    <p>Node.js is a single-threaded application, however events and callbacks also make Node.js support concurrency. </p>
+        <h3>Event-driven Programming</h3>
+       <p> When a user does something like for example, click a button in a webpage, an event is triggered. These events have functions that when triggered, executes something. 
+        </p><br>
+        <img src="Nodes/Node-Event-Loop.png" alt="Node-Event-Loop">
+        <p>There is a main loop that listens for events and trigger a callback function for the event that was triggered.  When an asynchronous function returns its results, a callback function is called. 
+        There are events used to bind events and event-listener. They are available through events module and EventEmiiter class.
+        </p><img src="Nodes/Node1.png" alt="code1">
+        <p>Syntax in binding an event handler with an event:</p><br>
+        <img src="Nodes/Node2.png" alt="code2">
+         <p>Firing an event programmatically:</p><br>
+        <img src="Nodes/Node3.png" alt="code3">
+        
+        <p>EXAMPLE</p>
+        <p>//main.js</p><br>
+        <img src="Nodes/Node4.png" alt="sample code">
+        </div>
+        <div class="subtopic">
+        <h3>Node.js-EventEmitter</h3>
+        <p>A module that helps in incorporating Event-Driven Programming in projects.  The events module contains the EventEmitter class. 
+        </p><br>
+        <img src="Nodes/Node5.png" alt="sample code">
+        
+        <p>There is an ‘error’ event that is triggered when an EventEmitter faces an error. A ‘newListener’ event is triggered when a new listener is added. Lastly, a removeListener event is fired when a listener is  removed.
+        </p>
+        <h3>Methods</h3>
+        <ol>
+            <li>addListener(event, listener)</li>
+            <li>on(event, listener) </li>
+            <li>once(event, listener) </li>
+            <li>removeListener(event, listener) </li>
+            <li>removeAllListeners([event]) </li>
+            <li>setMaxListeners(n) </li>
+            <li>listeners(event) </li>
+            <li>emit(event, [arg1], [arg2], [...])</li>
+        </ol> 
+        
+        <h3>Class methods</h3>
+        <p><b>listenerCount(emitter, event)</b></p>
+        <p><b>Events</b></p>
+        <ol>
+            <li>newListener</li>
+            <ul>
+                <li>event – the name of the event</li>
+                <li>listener -  the event handler function</li>
+            </ul>
+          <li>removeListener</li>
+          <ul>
+                <li>event - the name of the event</li>
+                <li>listener -  the event handler function</li>
+          </ul>  
+          
+        </ol>
+        <p>EXAMPLE</p>
+        <img src="Nodes/Node6.png" alt="sample code">
+        </div>
+        <div class="subtopic">
+        <h2>Node.js – File System</h2>
+        <p>This allows the user to work with the computer’s file system. To implement a file system, use the require() method.
+        </p>
+        <p>Example:</p>
+        <pre>var filesystem = require(‘filesystem’);</pre>
+        <p>It is commonly use for Reading files, Creating files, Updating files, Deleting files and Renaming files.</p>
+        <title>Methods:</title>
+        <h3>Read Files</h3>
+        <p>-fs.readFile()</p>
+        
+        <h3>Create Files</h3>
+            <p>-fs.appendFile()</p>
+            <p>-fs.open()</p>
+            <p>-fs.writeFile()</p>
+        
+        <h3>Update Files</h3>
+            <p>-fs.appendFile()</p>
+            <p>-fs.writeFile()</p>
+        
+        <h3>Delete Files</h3>
+            <p>-fs.unlink()</p>
+        
+        <h3>Rename Files</h3>
+            <p>-fs.rename</p>
+        
+</body>
+</html>
