@@ -167,7 +167,7 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-#lecture:target, #quiz:target, #repo:target, #about:target {
+#lecture:target, #quiz:target, #repo:target {
 	padding-top: 60px;
 }
 
