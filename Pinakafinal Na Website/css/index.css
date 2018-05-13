@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Candara';
+    overflow-x: hidden;
+}
+body {
+	overflow-y: hidden;
+}
+nav div.navbar-brand, ul li a.nav-link {
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+.navbar {
+	z-index: 1000;
+	transition: .4s;
+}
+.welcome {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.welcome video {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+	width: auto;
+	height: auto;
+	filter: brightness(30%);
+	opacity: 0.9;
+	z-index: 1;
+}
+.welcome img {
+	width: 55%;
+	z-index: 2;
+}
+.welcome h2 {
+    font-size: 4vw;
+    color: white;
+    z-index: 3;
+}
+.welcome img {
+    width: 35vw;
+    height: auto;
+}
+.welcome a {
+	z-index: 2;
+	color: white;
+	font-size: 30px;
+}
+.bg-none {
+    background-color: none;
+}
+nav.black {
+    width: 100%;
+    background-color: #272727;
+}
+.lec-header {
+	width: 100%;
+}
+.lec-header h1 {
+	font-size: 50px;
+}
+.lec-header p, .lec-header a {
+	font-size: 23px;
+}
+.notes {
+	font-size: 50px;
+	padding: 5px;
+}
+.notes a {
+	color: white;
+	transition: transform .2s;
+}
+.notes a:hover > i {
+	transform: scale(1.2);
+}
+#java {
+	background-color: #ac4444;
+}
+#php {
+	background-color: #7d44ac;
+}
+#nodejs {
+	background-color: #44ac52;
+}
+#jsp {
+	background-color: #447aac;
+}
+#owasp {
+	background-color: #ac8b44;
+}
+#quiz-btn {
+	padding: 5px;
+	border: 1px solid #555555;
+	border-radius: 8px;
+	color: #555555;
+}
+.profiles {
+	width: 100vw;
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 290px;
+	margin: 5px;
+	display: inline-block;
+}
+.card h1{
+	font-size: 32px;
+}
+.card img {
+	width: 100%;
+}
+footer {
+	text-align: center;
+	overflow-y: hidden;
+	color: white;
+	background-color: black;
+	opacity: .9;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.welcome img{
+		width: 65%;
+		z-index: 2;
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.welcome img{
+		width: 70%;
+		z-index: 2;
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.welcome img{
+		width: 80%;
+		z-index: 2;
+	}
+	.notes a h2{
+		font-size: 22px;
+	}
+	.repo img {
+		width:70%;
+		height:auto;
+	}
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#lecture:target, #quiz:target, #repo:target, #about:target {
+	padding-top: 60px;
+}
+
+
