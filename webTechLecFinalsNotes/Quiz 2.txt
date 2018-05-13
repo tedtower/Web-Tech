@@ -1,0 +1,13 @@
+Node.js
+1. File system- To implement a file system, use the inquire() method. False
+2. Methods - To create files use the method fs.openFile(). False
+ Java FileInputStream
+3. FileInputStream class extends The InputStream subclass.
+4. ServletOutputStream provides a stream to read binary data from the request. False
+5. Jsp engine needs a web server to act like a container in processing JSP pages. False
+6. In Java server Pages Lifecycle, the last step involves creating a new JSP from the container. False
+7. Even if the browser is closed, the session cookies that are stored in the browser memory will remain . False.
+8. In creating a class in PHP, there is no need to include class keyword just the class name and pair of curly braces. False
+9. Using mysql() in PHP, you are able to connect to MySQL. False
+10.Using the method service() in Java Servlet, you can terminate the servlet. False.
+ 
