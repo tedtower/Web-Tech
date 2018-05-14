@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-    require "../includes/readJson.php";
+    require "../includes/readJson2.php";
 
     $array_size = sizeof($array['questions']);
     $correct_answers = [];

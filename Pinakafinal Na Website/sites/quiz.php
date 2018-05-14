@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <form action="checkAnswers.php" method="post">
+    <head>
+
+    </head>
+    <body><form action="checkAnswers.php" target="_self" method="post">
             <?php
                 require "../includes/readJson.php";
                 if($array == null){
@@ -23,9 +24,9 @@
                         $cChar++;
                     }    
                 }
-            require "checkAnswers.php";
             ?>
             <input type="submit" value="Submit" name="submit">
-        </form>
-    </body>
+    </form><?php
+
+    ?></body>
 </html>
