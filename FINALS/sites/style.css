@@ -21,27 +21,21 @@ nav div.navbar-brand, ul li a.nav-link {
     transition: .4s;
     background-color: black;
 }
-h1 {
+p {
     text-align: center;
-    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    background-color: #303030;
+    color: white;
+    font-size: 18px;
 }
-p, .subtopic li{
+.butt {
+    text-align: center;
     font-size: 20px;
-    text-indent: 50px; 
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
-pre {
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-@media (max-width: 480px) {
-	p, .subtopic li {
-        font-size: 16px;
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 1100px) {
+	p {
+        font-size: 24px;
     }
 }
