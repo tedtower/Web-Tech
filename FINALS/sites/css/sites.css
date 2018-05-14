@@ -40,7 +40,7 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-ul, ol {
+.subtopic ul, .subtopic ol {
     list-style-position: inside;
     padding-left: 10px;
     font-size: 20px;
