@@ -46,7 +46,7 @@
             for($y = 0; $y<sizeof($array['questions'][$x]['choices']); $y++ ){
                 $cNo = $y+1;
                 $id = $choiceChar . ($y+1);
-                echo "<input type='radio' name='q$qNo' id='$id' value='$id'><label for='$id'>" . $array['questions'][$x]['choices'][$y] . "</label><br>";
+                echo "<input type='radio' name='q$qNo' id='$id' value='$id'><label for='$id' style='font-size:17px;'>" . $array['questions'][$x]['choices'][$y] . "</label><br>";
             }
             $cChar++;
         }
