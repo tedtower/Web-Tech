@@ -1,0 +1,172 @@
+{              
+    "questions": [
+        {
+            "question" : "It is a small data sent by a server to a user’s web browser to tell if two request is sent form the same browser.",
+            "choices" : [
+                "HTTP Cookies",
+                "HTTP Request Data",
+                "Bit Data"
+            ],
+            "answer" : "a1"
+        },
+        {
+            "question" : "It is used for session management.",
+            "choices" : [
+                "HTTP Cookies",
+                "HTTP Request Data",
+                "Bit Data"
+            ],
+            "answer" : "b1"
+        },
+        {
+            "question" : "It is stored in browser memory and expire once the browser is closed.",
+            "choices" : [
+                "HTTP Cookies",
+                "HTTP Request Data",
+                "Bit Data"
+            ],
+            "answer" : "c1"
+        },
+        {
+            "question" : "It is a java servlet used to handle HTTP requests and generate responses for a website.",
+            "choices" : [
+                "HttpServlet",
+                "JavaServlet",
+                "HttpsServlet"
+            ],
+            "answer" : "d1"
+        },
+        {
+            "question" : "It is an interface that provides request information for HTTP servlets.",
+            "choices" : [
+                "HttpServletRequest",
+                "HttpServletResponse"
+            ],
+            "answer" : "e1"
+        },
+        {
+            "question" : "It is an interface that provides Http-specific functionality for sending responses.",
+            "choices" : [
+                "HttpServletRequest",
+                "HttpServletResponse"
+            ],
+            "answer" : "f1"
+        },
+        {
+            "question" : "It is an interface that contains all the set of methods that a servlet uses to communicate with its servlet container.",
+            "choices" : [
+                "ServletContext",
+                "ServletLibraries"
+            ],
+            "answer" : "g1"
+        },
+        {
+            "question" : "It gets configuration information from the web.xml file.",
+            "choices" : [
+                "ServletContext",
+                "ServletGet();"
+            ],
+            "answer" : "h1"
+        },
+        {
+            "question" : "Set, get, or remove attributes from the web.xml file, and provide inter-application communication.",
+            "choices" : [
+                "ServletContext",
+                "ServletSet();"
+            ],
+            "answer" : "i1"
+        },
+        {
+            "question" : "It is a method of ServletContext Interface that returns the names of the context’s initialization parameters.",
+            "choices" : [
+                "getInitParameterNames()",
+                "getInitParameter()"
+            ],
+            "answer" : "j1"
+        },
+        {
+            "question" : "It is a method of ServletContext Interface that removes the attribute with the given name from the servlet context.",
+            "choices" : [
+                "removeAttribute(String name)",
+                "deleteAttribute(String name)"
+            ],
+            "answer" : "k1"
+        },
+        {
+            "question" : "It is responsible for creating the scripts on a web server that handles the responses made for a client’s request to the website.",
+            "choices" : [
+                "Server-side Scripting ",
+                "Client-side Scripting"
+            ],
+            "answer" : "l1"
+        },
+        {
+            "question" : "Java objects that are intended to play the role of server components in client-server communications.",
+            "choices" : [
+                "Java Servlets",
+                "Java server"
+            ],
+            "answer" : "n1"
+        },
+        {
+            "question" : "This refers to the process that includes the creation of a servlet up to its destruction.",
+            "choices" : [
+                "Servlet Life Cycle ",
+                "Server Life Cycle"
+            ],
+            "answer" : "o1"
+        },
+        {
+            "question" : "It is similar to JavaScript that allows a web developer, to embed some programs into the HTML code of a web page.",
+            "choices" : [
+                "PHP",
+                "HTML",
+                "CSS"
+            ],
+            "answer" : "p1"
+        },
+        {
+            "question" : "It is used for web development but is also used as a general-purpose programming language.",
+            "choices" : [
+                "PHP",
+                "HTML",
+                "CSS"
+            ],
+            "answer" : "q1"
+        },
+        {
+            "question" : "It is an asynchronous event driven server-side Javascript runtime environment.",
+            "choices" : [
+                "Node.js",
+                "ASP.net"
+            ],
+            "answer" : "r1"
+        },
+        {
+            "question" : "A component of Node.js that are imported for use in source code for easier and faster coding.",
+            "choices" : [
+                "Modules",
+                "Server",
+                "Request and Response Mechanism"
+            ],
+            "answer" : "s1"
+        },
+        {
+            "question" : "A component of Node.js that listens to the requests that clients make.",
+            "choices" : [
+                "Server",
+                "Request and Response Mechanism",
+                "Modules"
+            ],
+            "answer" : "t1"
+        },
+        {
+            "question" : "What is the right way of implementing a module?",
+            "choices" : [
+                "const module = require(‘<Module Name>’)",
+                "const module = include('<Module Name>')"
+            ],
+            "answer" : "u1"
+        }
+    ]
+}

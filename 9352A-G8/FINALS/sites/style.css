@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Candara';
+    overflow-x: hidden;
+}
+body {
+    overflow-y: hidden;
+    margin: 2%;
+}
+nav div.navbar-brand, ul li a.nav-link {
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+}
+.navbar {
+	z-index: 1000;
+    transition: .4s;
+    background-color: black;
+}
+p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    background-color: #303030;
+    color: white;
+    font-size: 18px;
+}
+.butt {
+    text-align: center;
+    font-size: 20px;
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 920px) {
+	p {
+        font-size: 24px;
+    }
+}
