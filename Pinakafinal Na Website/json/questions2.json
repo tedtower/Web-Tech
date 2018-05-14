@@ -23,10 +23,10 @@
         {
             "question" : "Which of the following is the right tag to write PHP?",
             "choices" : [
-                "<% %>",
-                "<php> </php>",
-                "<?php ?>",
-                "<script type=”php”> </script>"
+                "&#60;% %&#62;",
+                "&#60;php&#62; &#60;/php&#62;",
+                "&#60;?php ?&#62;",
+                "&#60;script type=”php”&#62; &#60;/script&#62;"
             ],
             "answer" : "c3"
         },
@@ -43,10 +43,10 @@
         {
             "question" : "Valid syntax to write a for loop",
             "choices" : [
-                "for($i < 5; $i = 0;)",
-                "for($i = 0; $i < 5; $i++)",
-                "for($i < 5;)",
-                "for( $i < 5; $i = 0; $i++)"
+                "for($i &#60; 5; $i = 0;)",
+                "for($i = 0; $i &#60; 5; $i++)",
+                "for($i &#60; 5;)",
+                "for( $i &#60; 5; $i = 0; $i++)"
             ],
             "answer" : "e2"
         },
@@ -92,10 +92,10 @@
         {
             "question" : "Which of the following is the common syntax of a JSP tag?",
             "choices" : [
-                "<% %>",
-                "<?  ?>",
-                "<%JSP  %>",
-                "<JSP>  </JSP>"
+                "&#60;% %&#62;",
+                "&#60;?  ?&#62;",
+                "&#60;%JSP  %&#62;",
+                "&#60;JSP&#62;  &#60;/JSP&#62;"
             ],
             "answer" : "j1"
         }
