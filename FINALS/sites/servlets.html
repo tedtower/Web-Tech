@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Web Systems &amp; Technologies: Java Servlets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/fontawesome-all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sites.css" />
 </head>
 <body>
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-none fixed-top" id="home">
+        <div class="navbar-brand">
+            <img src="../img/logo.png">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" onclick="addBG()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#home">&nbsp;<i class="fa fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#lecture">&nbsp;<i class="fa fa-book"></i> Lecture Notes</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#quiz">&nbsp;<i class="fa fa-edit"></i> Quiz</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#repo">&nbsp;<i class="fab fa-github"></i> Repository</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#about">&nbsp;<i class="fa fa-address-card"></i> About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
     <h1>Java Servlets</h1>
     <p class="servlet">Java Servlets are basically Java objects that are intended to play the role of server components in client-server communications. It handles client requests by generating responses to such requests. It has access to the entire family of Java APIS and is part of the Java EE Specification. Servlets are hosted in a “servlet container” that provides the environment in which the servlet runs, as well as controls the “servlet lifecycle”. Servlets are able to collect input from users through forms, retrieve and display data from a database and other sources, and create web pages dynamically.
     <br>
@@ -117,6 +138,10 @@
         <h3>HttpServletResponse</h3>
         <p>The HttpServletResponse interface provides Http-specific functionality for sending responses. The web container creates an HttpServletResponse object and is passed as an arguments to the service methods (e.g. doGet, doDelete, etc).</p>
 
-    </div>      
+    </div>  
+    <!--JAVASCRIPT-->
+    <script src="../js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>    
 </body>
 </html>
