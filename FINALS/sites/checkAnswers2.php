@@ -18,5 +18,8 @@ if(isset($_POST['submit'])){
             $score++;
         }
     }
-    echo "Your score is $score out of $array_size";
+    echo("<script>
+            window.alert('You have scored $score out of $array_size!');
+            window.location.href='../index.html';
+        </script>");
 }    
