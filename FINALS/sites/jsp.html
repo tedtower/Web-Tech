@@ -42,6 +42,7 @@
         </pre>
         <p>Based on the given example, in every line of java code, it starts with ‘<%’ and ends with ‘%>’ and it will insert 6 paragraphs in HTML, 5 paragraphs saying about how much pants he/she has incrementally from one to five and one paragraph for saying That’s all. Scriplets can also be inserted within an html tag.</p>
     </div>
+    <hr>
     <div class="subtopic">
         <h3>Why JSP?</h3>
         <ul>
@@ -50,6 +51,7 @@
             <li>JavaServer Pages has the access to Java Enterprise APIs because they were buit in Java Servlets. Hence, Java Database Controller, Enterprise JavaBeans and etc. are accessible to use in JSP.</li>
         </ul>
     </div>
+    <hr>
     <div class="subtopic">
         <h3>Setting Environment For JSP</h3>
         <h4>Java Development Kit (SDK)</h4>
@@ -85,10 +87,12 @@
     set CLASSPATH = %CATALINA%\common\lib\jsp-api.jar;%CLASSPATH%
         </pre>
     </div>
+    <hr>
     <div class="subtopic">
         <h3>Architecture</h3>
         <p>Java Server Pages’ architecture includes three tiers and is supported by a web server. The server is responsible for mediating the client browser and the database. The server is in need of a JSP engine, which acts like a container in processing JSP pages. This container stops the requests for the JSP pages. Basically, the flow of JSP’s architecture includes the user making a request through the Internet in the user’s web browser in the JSP page. This request is then passed to the web server. The requested .jsp file is then accepted by the web server and gives this file to the JSP Servlet Engine. If the JSP file has never been called before, this file is to parsed, else the server will be instantiated. The servlet would be then generated from the JSP file. This is then given to the user’s web server. Lastly, the result of the request will be displayed in HTML. JSP is another way to create a servlet without being an expert in Java. The JSP page, if you remove the translation phase, is exactly how servlets are handled also.</p>
     </div>
+    <hr>
     <div class="subtopic">
         <h3>Lifecycle</h3>
         <p>The JSP cycle and servlet life cycle is almost identical, both having the creation to the destruction phase, but the JSP life cycle has another step that compiles a JSP into a servlet. It goes through compilation, initialization, execution, and cleanup.</p>
