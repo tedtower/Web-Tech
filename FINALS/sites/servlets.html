@@ -36,7 +36,7 @@
     <br>
     Java Servlets often fulfill the same purpose of programs that implement the Common Gateway Interface (CGI), but offers more advantages compared to CGI by being significantly better in performance. With servlets, it is not necessary to allocate a separate process in handling each client request because it executes within the address space of the Web Server. By being written in Java, servlets are platform-independent and protected by the Java security manager. It can also communicate with applets, databases, or other software because the full functionality of the Java class libraries are available to servlets like sockets and RMI mechanisms.
     </p>
-
+    <hr>
     <div class="subtopic">
         <h3>Servlet Tasks</h3>
         <ul class="list">
@@ -46,7 +46,7 @@
             <li>Send the explicit data.</li>
         </ul>
     </div>
-
+    <hr>
     <div class="subtopic">
         <h3>Servlet Lifecycle</h3>
         <p>This refers to the process that includes the creation of a servlet up to its destruction.</p>
@@ -69,7 +69,7 @@
         <br>
         This method is invoked only once- at the end of the life cycle of a servlet. By calling this method, the servlet can close database connections, halt background threads, write cookie lists or hit counts to disk, and perform other cleanup activities.</p>
     </div>
-
+    <hr>
     <div class="subtopic">
         <h3>ServletContext</h3>
         <p>This is an interface that contains all the set of methods that a servlet uses to communicate with its servlet container. It includes the MIME type of a file, dispatch requests, write to a log file, and more. To further understand this, it is important to note that there is only one context per web application, which is a collection of servlets and content, per Java Virtual Machine. 
@@ -99,7 +99,7 @@
             <li>getServletContext() method of GenericServlet class returns the object of GenericServlet class returns the object of ServletContext</li>
         </ul>
     </div>
-
+    <hr>
     <div class="subtopic">
         <h3>Java FileInputStream</h3>
         <p>The Java FileInputStream basically gets input bytes from a file. It is used for reading byte-oriented data such as image data, audio, video, etc. Even though it is also possible to read character-stream data, it is recommended to use the FileReader class for this. The FileInputStream class extends the InputStream superclass.</p>
@@ -107,8 +107,7 @@
         <h3>ServletOutputStream</h3>
         <p>The ServletOutputStream is an abstract class that the servlet container implements. It provides a stream to write binary data into the response. The getOutputStream() method of ServletResponse interface returns the instance of ServletOutputStream class.</p>
     </div>
-
-    <br>
+    <hr>
     <div class="subtopic">
         <h2>HTTP Servlet</h2>
         <p>HTTP Servlet is a java servlet used to handle HTTP requests and generate responses for a website. When using the HttpServlet abstract class then one method of HttpServlet should be overridden by its subclass. It is hosted in a web container or also known as a servlet container.</p>
@@ -133,7 +132,7 @@
             <li>service(ServletRequest request, ServletResponse response)</li>
         </ul>
     </div>
-
+    <hr>
     <div class="subtopic">
         <h3>HttpServletResponse</h3>
         <p>The HttpServletResponse interface provides Http-specific functionality for sending responses. The web container creates an HttpServletResponse object and is passed as an arguments to the service methods (e.g. doGet, doDelete, etc).</p>
