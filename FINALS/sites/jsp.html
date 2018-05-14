@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Web Systems &amp; Technologies: JavaServer Pages</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/fontawesome-all.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sites.css" />
 </head>
 <body>
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-none fixed-top" id="home">
+        <div class="navbar-brand">
+            <img src="../img/logo.png">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" onclick="addBG()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#home">&nbsp;<i class="fa fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#lecture">&nbsp;<i class="fa fa-book"></i> Lecture Notes</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#quiz">&nbsp;<i class="fa fa-edit"></i> Quiz</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#repo">&nbsp;<i class="fab fa-github"></i> Repository</a></li>
+                <li class="nav-item"><a class="nav-link text-light" href="../index.html#about">&nbsp;<i class="fa fa-address-card"></i> About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
     <h1>Java Server Pages</h1>
     <p>JSP also known as the JavaServer Pages (considered as singular) is a technology on the server side that creates, supports or develops dynamic web content. JSP is based on XML, HTML and any other document types. This has been released since the late 90s by Sun Microsystems. JavaServer Pages similar languages like PHP and ASP but JSP uses an object oriented programming language, the Java. In order for these pages to run, it must be compatible to the web server with a servlet container such as Glassfish, Apache Tomcat, Jetty and etc.</p>
     <div class="subtopic">
@@ -73,5 +94,9 @@
         <p>The JSP cycle and servlet life cycle is almost identical, both having the creation to the destruction phase, but the JSP life cycle has another step that compiles a JSP into a servlet. It goes through compilation, initialization, execution, and cleanup.</p>
         <p>JSP Compilation includes the JSP engine checking if the page is needed to be compiled. The JSP engine compiles the page if it has never been compiled or there are changes since the last time it was compiled. The compilation of the page involves parsing the JSP, converting the JSP into a servlet, and then compiling the servlet. The next step is initialization, which involves invoking the jspInit() method. This step is required before any requests could be completed. Initialization is to be done only once and it includes establishing the connections between databases, open files, and creating lookup tables in the jspInit() method. Next is the phase that includes all relationships with the request until the JSP is terminated- execution. Whenever a request is present and the previous steps has been completed, the JSP calls the _jspService method. This method is invoked whenever there is a request and in turn, generates the response to all the HTTP methods. The last step involves removing the JSP from the container. It uses the jspDestroy() method, which also performs the cleanup such as disconnecting from the database or closing open files.</p>
     </div>
+    <!--JAVASCRIPT-->
+    <script src="../js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
