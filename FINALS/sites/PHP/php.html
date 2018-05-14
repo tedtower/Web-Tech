@@ -30,223 +30,217 @@
         </div>
     </nav>
     <br><br><br>
-<h1>Hypertext Preprocessor</h1>
-	<p>PHP (Hypertext Preprocessor) allows a you to embed some programs into the HTML code. These programs can give functionality of web pages in the browser window. PHP has similarity to JavaScript but in loading a web page they have difference. JavaScript is a client-side language, and client-side languages downloaded the web page from the server and it read and executed. While PHP is one of some server-side languages, before the web page appears to the browser, these languages will run first by the web server.</p>
-	<p>Example of a PHP code:</p>
-	 <img src="Codes/1.png">
-	<p> <b>< ?php</b> marks as the start of a PHP script and <b>?></b> marks its end.</p>
-	<p>The program will be interpreted by the web server, the web server will read the program between the two delimiters (<? php and ?>) and converts to HTML code before it appears to the requesting browser.</p>
-	<p>The program appears to be: Sunday, April 1st 2012.</p>
+	<h1>Hypertext Preprocessor</h1>
+			<p>PHP (Hypertext Preprocessor) allows a you to embed some programs into the HTML code. These programs can give functionality of web pages in the browser window. PHP has similarity to JavaScript but in loading a web page they have difference. JavaScript is a client-side language, and client-side languages downloaded the web page from the server and it read and executed. While PHP is one of some server-side languages, before the web page appears to the browser, these languages will run first by the web server.</p>
+			<p>Example of a PHP code:</p>
+				<img src="Codes/1.png"/>
+			<p><b>< ?php</b> marks as the start of a PHP script and <b>?></b> marks its end.The program will be interpreted by the web server, the web server will read the program between the two delimiters (<? php and ?>) and converts to HTML code before it appears to the requesting browser.</p>
+			<p>The program appears to be: Sunday, April 1st 2012.</p>
 	<hr>
 	<div class="subtopic">
-		<h2>PHP Interpreter</h2>
-		<p><u>Local PHP Interpreter</u>- It is a PHP engine that is already installed on computer</p>
-		<p><u>Remote PHP Interpreters</u>- It can be installed on a remote host or in a virtual environment set up in a Vagrant instance.</p>
+		<h3>PHP Interpreter</h3>
+			<p><u>Local PHP Interpreter</u>- It is a PHP engine that is already installed on computer</p>
+			<p><u>Remote PHP Interpreters</u>- It can be installed on a remote host or in a virtual environment set up in a Vagrant instance.</p>
 	</div>
 	<hr>
-<div class="subtopic">
-	<h2>Basic Syntax and Statements</h2>
-	<p>PHP script is consisting of a commands and statements. Each PHP statements are always ends with semicolon.</p>
-	<p>Example:</p>  
-	<img src="Codes/2.png">
-	<p>An <i>echo statement</i>, is used to insert the text in the HTML code at the exact position where the PHP script was.<p>
-	<img src="Codes/3.png">
-	<p>Using <u>quotation marks</u> at the beginning and at the end of strings while parentheses, are used in two purposes -first purpose is to indicate that the date is a function and second purpose is to mark the beginning and end of arguments in order to tell what the function will do.</p>
-</div>
-<hr>
-<div class="subtopic">
-	<h2>PHP Variables, Operators and Comments</h2>
-		<p>To indicate what is a variable in PHP, all variable names start with a <b>dollar sign</b>, a single variable contain any data type, number or string. If the variable has an existing value -a number, then the variable was assigned a new value which is a string, it now contains a string value.
-		The operators of PHP may be used to assign values to variables, other operators can be used to perform mathematical operations on values, there are operators for comparing values and many more. For assigning values to variables, <i>assignment operator</i> is being use which is the equal sign ‘=’. There are also’+=’(Addition), ‘ -= ’(Subtraction), ‘*=’(Multiplication), ‘/=’(Division), ‘%=’(Modulus) used with numeric values.
-		</p>
-		<p>Example: </p>	
-		<img src="Codes/4.png">
-		<p>To perform <i>mathematical operations</i>, <i>arithmetic operators</i> are being used like ‘+’ addition operator for adding, ‘ – ‘ subtraction operator for subtracting, ‘ * ’multiplication operator for multiplying and ‘ / ’ division operator for dividing. 
-		There is also <i>string operators</i> for string values which are concatenation ( . ) and concatenation assignment (.=).Concatenation sticks the string value together and concatenation assignment assigning one variable sticks to another variable.
-		</p>
-		<p>
-		Example:</p>
-		<img src="Codes/5.png">
-		<p>Concatenation can be also applied in echo statement: </p>
-		<img src="Codes/6.png">
-		<p>Comments are used to indicate what is the code for. It is an explanatory text for every code. Comments begin with ‘//’ -for single comments and for block comments, it begins with ‘/*’ and end with ‘*/’. Comments between two delimiters are ignored by PHP interpreters.
-		</p>
-		 <p>There are Logical operators, Comparison operators, Array operators and
-		 Increment and Decrement operators. </p>
-		 <br>
-		<img src="Codes/7.png">
-		<br>
-		<img src="Codes/8.png">
-		<br>
-		<img src="Codes/9.png">
-		<br>
-		<img src="Codes/10.png">
-</div>
-<hr>
-<div class="subtopic">
-	<h2>PHP Arrays</h2>
-	<p>Array is a variable that contains multiple values. To create array in PHP is to use array command.</p>
-	<p>Example: </p>
-	<br>
-	<img src="Codes/11.png">
-	<p>Knowing the index of each value, you can retrieve the value stored in an array. Each element has its index. The string value ‘one’ is first element and its index is zero.
-	</p>
-	<img src="Codes/12.png">
-	<p>An existing value of an array can be change by indicating the index.</p>
-	<img src="Codes/13.png">
-	<p>And also, can add a new element by adding an index;</p>
-	<img src="Codes/14.png">
-	<p>Associative arrays are arrays that uses named keys which is being assigned.</p>
-		<p>EXAMPLE: </p> <br><img src="Codes/15.png">
-</div>
-<hr>
-<div class="subtopic">
-	<h2>Constants</h2>
-	<p>Constant is a name identifier for simple value, constant is case-sensitive and it must be in uppercase. Constants does not begin with dollar sign. Once it is already defined it cannot be redefine unlike the variable. In indicating constants, it can be done using define() function or using const keyword.
-	In defining constants using define() function, it will be defined to an arbitrary expression. While using const keyword in defining constants, it will define as a scalar expression.
-	</p><p>Examples: </p> 
-	<p>Defining Constants using define() function</p><br>
-	<img src="Codes/16.png">
-	<p>Defining Constants using const keyword</p><br>
-	<img src="Codes/17.png">
-</div>
-<hr>
-<div class="subtopic">
-	<h2>Functions</h2>
-	<h3>User -defined functions</h3>
-		<p>The declaration starts with ‘function’. In naming a function, it begins with letter or underscore but not number. Creating a function, an	opening curly brace will begin the function code and closing curly brace to end the function.
-		</p>
-		<p>Example:</p> <br><img src="Codes/18.png">
-	<h3>Function Arguments</h3>
-		<p>The information in function can be passed by arguments. Arguments are just like variables and it also starts with dollar sign. Arguments are inside of the parentheses in the function, which is after the function name. The arguments can be multiple, the arguments must be comma separated.
-		</p>
-		<p>Example:</p><br>
-	<img src="Codes/19.png">
-	<h3>Returning Values</h3>
-		<p>For the function to return a value, use return statement</p><br>
-	<img src="Codes/20.png">
-	<h3>Variable functions</h3>
-		<p>Variable functions are which the variable has parentheses attach to the variable name. Variable functions won’t work in echo, print, unset(), isse(), empty().
-		</p><br>
-		<img src="Codes/21.png">
-	<h3>Class and Objects</h3>
-		<p>In creating class, class keyword must be included followed by a class name and pair of curly braces. Inside the pair of curly braces are the definitions of properties, methods and constants which belongs to the class. A class may contain its own properties -variables, methods -functions, and constants.
-		</p>
-		<p>Example: </p>
-		<img src="Codes/22.png">
-		<p>Php is one of the languages that is Object Oriented. Which means objects can be created that contains variables and functions. In creating an object in the class, the new keyword must be use. </p>
-		<br><img src="Codes/23.png">
-</div>
-<hr>
-<div class="subtopic">
-<h2>Control Structures</h2>
-<h3>If…else…elseif</h3>
-	<li>if statement will execute if the condition is true</li>
-	<li>else statement will execute if the condition is false.</li>
-	<li>elseif statement is another option and will execute if the condition is true.</li>
-<p>Syntax:	</p><br>
-<img src="Codes/24.png">
-<p>Example:</p><br> <img src="Codes/25.png">	
-<h3>switch</h3>
-	<p>switch statement is similar to if statement, but in switch statement it has many conditions with different actions.</p>
-<p>Syntax:</p>
-<pre>
-switch(n){
-case label1:	//each case ends with colon
-	code to execute, if n matches label1;
-	break; //end the execution
-case label2:
-	code to execute, if n matches label2;
-	break;
-case label3:
-	code to execute, if n matches label3;
-	break;
-default:
-	code to execute if does not pair one of the labels;
-}
-</pre>
-<p>
-Example:<p><br>  <img src="Codes/26.png">
-<h3>for loops</h3>
- 	<p>for loop is used if you want to run the script many times.</p>
-<p>Syntax:</p>
-<pre>
-for (initialize the loop counter; test counter; increment counter) {
-    code to be executed;
-}
-</pre>
-<p>
-Example: </p><br><img src="Codes/27.png">
-<h3>while loops </h3>
-	<p>as long as the specified condition is true, the block of codes will execute.</p>
-<p>Syntax:</p>
-<pre>
-while (condition is true){
-	code to execute;
-}
-</pre>
-<p>
-Example:</p><br> <img src="Codes/28.png">
-</div>
-<hr>
-<div class="subtopic">
-<h2>Include and Require statements</h2>
-	<p>Include and require statements are used for inserting or including files -PHP files, HTML files, txt files.</p>
-	<p>Syntax:</p>
-	<p>include ‘filename’; OR require ‘filename’;</p>
-	<p>Example:</p> <br><img src="Codes/28.png">
-	<p>The difference between the two statements is that, using the include statement, if the file cannot be found the script will continue to execute, while using the require statement, if the file cannot be found it will not execute right after the require statement.
-	</p>
+	<div class="subtopic">
+		<h3>Basic Syntax and Statements</h3>
+			<p>PHP script is consisting of a commands and statements. Each PHP statements are always ends with semicolon.</p>
+			<p>Example:</p>  
+			<img src="Codes/2.png"/>
+			<p>An<i>echo statement</i>, is used to insert the text in the HTML code at the exact position where the PHP script was.<p>
+			<img src="Codes/3.png"/>
+			<p>Using <u>quotation marks</u> at the beginning and at the end of strings while parentheses, are used in two purposes -first purpose is to indicate that the date is a function and second purpose is to mark the beginning and end of arguments in order to tell what the function will do.</p>
+	</div>
 	<hr>
 	<div class="subtopic">
-	<h2>Global variables-Superglobals</h2>
-	<p>PHP superglobal variables are:</p>
-	<h3>$_SERVER</h3>
-	<p>it is an array that contains information like headers, paths, and scripts locations.</p>
-	<p>Syntax: $_SERVER[elements]</p>
-	<p>Example: echo $_SERVER[‘SERVER_NAME’]; //this returns the name of the host server </p>
-	<h3>$_REQUEST</h3>
-		<p>it is an associative array contains the contents of $_GET, $_POST and $_COOKIE.</p>
-		<p>Example: $myname=$_REQUEST [‘fname’];</p>
-	<h3>$_POST</h3>
-		<p>It is used to collect the data from form and also used to pass variables.</p>
-	<h3>$_GET</h3>
-		<p>Can be used to collect the data from form and also collect data sent in URL.</p>
-	<h3>$_FILES</h3>
-		<p>It contains all the uploaded file information.</p>
-	<h3>$_COOKIE</h3>
-		<p>An associative array of variables passed to the script through HTTP cookies.</p>
-	<h3>$_SESSION</h3>
-		<p>An associative array that contains session variables included in the current script.</p>
-</div>
-<hr>
-<div class="subtopic">
-<h2>PHP with MySQL</h2>
-<p>Connect to the MySQL using mysqli()</p>
-<p>Example: $conn = mysqli($servername,$username, $password);</p>
-<h3>INSERT data</h3>
-<p>Inserting data have some syntax rule to be followed:</p>
-<ul>
-	<li>The SQL query must be quoted in PHP
-	<li>String values that are inside the SQL query must be quoted
-	<li>No quotations for numeric values
-	<li>NULL word must not be quoted
-</ul>
-<p>To insert data, INSERT INTO table_name(column1, column2) VALUES (value_one,value_two,value_three);</p>
-<h3>SELECT data</h3>
-	<p>to select data, SELECT column_name1,column_name_2 FROM table_name</p>
-<p>Example: $sql=”SELECT id, fname,lname FROM Customers”;</p>
-<h3>DELETE data</h3>
-	<p>to delete record from table, DELETE FROM table_name WHERE specific_column=specific_value</p>
-	<p>Example: $sql=”DELETE FROM Customers WHERE id=4”;</p>
-<h3>UPDATE data</h3>
-	<p>to update an existing data from the records, UPDATE table_name SET column1=value1, column2=value2,... WHERE specific_column=specific_value</p>
-<p>Example: $sql = "UPDATE Customers SET fname='Joel' WHERE id=2";</p>
-</div>
-<!--JAVASCRIPT-->
-<script src="../../js/jquery-3.2.1.slim.min.js"></script>
-<script src="../../js/popper.min.js"></script>
-<script src="../../js/bootstrap.min.js"></script>
+		<h3>PHP Variables, Operators and Comments</h3>
+			<p>To indicate what is a variable in PHP, all variable names start with a <b>dollar sign</b>, a single variable contain any data type, number or string. If the variable has an existing value -a number, then the variable was assigned a new value which is a string, it now contains a string value.
+			The operators of PHP may be used to assign values to variables, other operators can be used to perform mathematical operations on values, there are operators for comparing values and many more. For assigning values to variables, <i>assignment operator</i> is being use which is the equal sign ‘=’. There are also’+=’(Addition), ‘ -= ’(Subtraction), ‘*=’(Multiplication), ‘/=’(Division), ‘%=’(Modulus) used with numeric values.</p>
+			<p>Example:</p>	
+			<img src="Codes/4.png"/>
+			<p>To perform <i>mathematical operations</i>, <i>arithmetic operators</i> are being used like ‘+’ addition operator for adding, ‘ – ‘ subtraction operator for subtracting, ‘ * ’multiplication operator for multiplying and ‘ / ’ division operator for dividing. 
+			There is also <i>string operators</i> for string values which are concatenation ( . ) and concatenation assignment (.=).Concatenation sticks the string value together and concatenation assignment assigning one variable sticks to another variable.
+			</p>
+			<p>Example:</p>
+			<img src="Codes/5.png"/>
+			<p>Concatenation can be also applied in echo statement:</p>
+			<img src="Codes/6.png">
+			<p>Comments are used to indicate what is the code for. It is an explanatory text for every code. Comments begin with ‘//’ -for single comments and for block comments, it begins with ‘/*’ and end with ‘*/’. Comments between two delimiters are ignored by PHP interpreters.</p>
+			<p>There are Logical operators, Comparison operators, Array operators and Increment and Decrement operators. </p>
+			<br>
+			<img src="Codes/7.png"/>
+			<br>
+			<img src="Codes/8.png"/>
+			<br>
+			<img src="Codes/9.png"/>
+			<br>
+			<img src="Codes/10.png"/>
+	</div>
+	<hr>
+	<div class="subtopic">
+		<h3>PHP Arrays</h3>
+		<p>Array is a variable that contains multiple values. To create array in PHP is to use array command.</p>
+		<p>Example: </p>
+		<img src="Codes/11.png"/>
+		<p>Knowing the index of each value, you can retrieve the value stored in an array. Each element has its index. The string value ‘one’ is first element and its index is zero.</p>
+		<img src="Codes/12.png"/>
+		<p>An existing value of an array can be change by indicating the index.</p>
+		<img src="Codes/13.png"/>
+		<p>And also, can add a new element by adding an index;</p>
+		<img src="Codes/14.png"/>
+		<p>Associative arrays are arrays that uses named keys which is being assigned.</p>
+		<p>Example:</p>
+		<img src="Codes/15.png"/>
+	</div>
+	<hr>
+	<div class="subtopic">
+		<h3>Constants</h3>
+		<p>Constant is a name identifier for simple value, constant is case-sensitive and it must be in uppercase. Constants does not begin with dollar sign. Once it is already defined it cannot be redefine unlike the variable. In indicating constants, it can be done using define() function or using const keyword.
+		In defining constants using define() function, it will be defined to an arbitrary expression. While using const keyword in defining constants, it will define as a scalar expression.</p>
+		<p>Examples: </p> 
+		<p>Defining Constants using define() function</p>
+		<img src="Codes/16.png"/>
+		<p>Defining Constants using const keyword</p>
+		<img src="Codes/17.png"/>
+	</div>
+	<hr>
+	<div class="subtopic">
+		<h3>Functions</h3>
+		<h4>User -defined functions</h4>
+			<p>The declaration starts with ‘function’. In naming a function, it begins with letter or underscore but not number. Creating a function, an	opening curly brace will begin the function code and closing curly brace to end the function.</p>
+			<p>Example:</p> 
+			<img src="Codes/18.png"/>
+		<h4>Function Arguments</h4>
+			<p>The information in function can be passed by arguments. Arguments are just like variables and it also starts with dollar sign. Arguments are inside of the parentheses in the function, which is after the function name. The arguments can be multiple, the arguments must be comma separated.</p>
+			<p>Example:</p>
+			<img src="Codes/19.png"/>
+		<h4>Returning Values</h4>
+			<p>For the function to return a value, use return statement</p>
+			<img src="Codes/20.png"/>
+		<h4>Variable functions</h4>
+			<p>Variable functions are which the variable has parentheses attach to the variable name. Variable functions won’t work in echo, print, unset(), isse(), empty().</p>
+			<img src="Codes/21.png"/>
+		<h3>Class and Objects</h3>
+			<p>In creating class, class keyword must be included followed by a class name and pair of curly braces. Inside the pair of curly braces are the definitions of properties, methods and constants which belongs to the class. A class may contain its own properties -variables, methods -functions, and constants.</p>
+			<p>Example:</p>
+			<img src="Codes/22.png">
+			<p>Php is one of the languages that is Object Oriented. Which means objects can be created that contains variables and functions. In creating an object in the class, the new keyword must be use. </p>
+			<img src="Codes/23.png">
+	</div>
+	<hr>
+	<div class="subtopic">
+		<h3>Control Structures</h3>
+		<h4>If…else…elseif</h4>
+			<ul>
+				<li>if statement will execute if the condition is true</li>
+				<li>else statement will execute if the condition is false.</li>
+				<li>elseif statement is another option and will execute if the condition is true.</li>
+			</ul>	
+			<p>Syntax:</p>
+			<img src="Codes/24.png"/>
+			<p>Example:</p>
+			<img src="Codes/25.png">	
+		<h4>switch</h4>
+			<p>switch statement is similar to if statement, but in switch statement it has many conditions with different actions.</p>
+			<p>Syntax:</p>
+			<pre>
+	switch(n){
+		case label1:	//each case ends with colon
+			code to execute, if n matches label1;
+			break; //end the execution
+		case label2:
+			code to execute, if n matches label2;
+			break;
+		case label3:
+			code to execute, if n matches label3;
+			break;
+		default:
+			code to execute if does not pair one of the labels;
+	}
+			</pre>
+			<p>Example:</p>  
+			<img src="Codes/26.png"/>
+		<h4>for loops</h4>
+			<p>for loop is used if you want to run the script many times.</p>
+			<p>Syntax:</p>
+			<pre>
+	for (initialize the loop counter; test counter; increment counter) {
+		code to be executed;
+	}
+			</pre>
+			<p>Example:</p>
+			<img src="Codes/27.png">
+		<h3>while loops</h3>
+			<p>as long as the specified condition is true, the block of codes will execute.</p>
+			<p>Syntax:</p>
+			<pre>
+	while (condition is true){
+		code to execute;
+	}
+			</pre>
+			<p>Example:</p>
+			<img src="Codes/28.png"/>
+	</div>
+	<hr>
+	<div class="subtopic">
+		<h3>Include and Require statements</h3>
+		<p>Include and require statements are used for inserting or including files -PHP files, HTML files, txt files.</p>
+		<p>Syntax:</p>
+			<p>include ‘filename’; OR require ‘filename’;</p>
+		<p>Example:</p>
+		<img src="Codes/28.png"/>
+		<p>The difference between the two statements is that, using the include statement, if the file cannot be found the script will continue to execute, while using the require statement, if the file cannot be found it will not execute right after the require statement.</p>
+	</div>
+	<hr>
+	<div class="subtopic">
+		<h3>Global variables-Superglobals</h3>
+		<p>PHP superglobal variables are:</p>
+		<h4>$_SERVER</h4>
+			<p>it is an array that contains information like headers, paths, and scripts locations.</p>
+			<p>Syntax: $_SERVER[elements]</p>
+			<p>Example: echo $_SERVER[‘SERVER_NAME’]; //this returns the name of the host server </p>
+		<h4>$_REQUEST</h4>
+			<p>it is an associative array contains the contents of $_GET, $_POST and $_COOKIE.</p>
+			<p>Example: $myname=$_REQUEST [‘fname’];</p>
+		<h4>$_POST</h4>
+			<p>It is used to collect the data from form and also used to pass variables.</p>
+		<h4>$_GET</h4>
+			<p>Can be used to collect the data from form and also collect data sent in URL.</p>
+		<h4>$_FILES</h4>
+			<p>It contains all the uploaded file information.</p>
+		<h4>$_COOKIE</h4>
+			<p>An associative array of variables passed to the script through HTTP cookies.</p>
+		<h4>$_SESSION</h4>
+			<p>An associative array that contains session variables included in the current script.</p>
+	</div>
+	<hr>
+	<div class="subtopic">
+		<h3>PHP with MySQL</h3>
+		<p>Connect to the MySQL using mysqli()</p>
+		<p>Example: $conn = mysqli($servername,$username, $password);</p>
+		<h4>INSERT data</h4>
+			<p>Inserting data have some syntax rule to be followed:</p>
+			<ul>
+				<li>The SQL query must be quoted in PHP
+				<li>String values that are inside the SQL query must be quoted
+				<li>No quotations for numeric values
+				<li>NULL word must not be quoted
+			</ul>
+			<p>To insert data, INSERT INTO table_name(column1, column2) VALUES (value_one,value_two,value_three);</p>
+		<h4>SELECT data</h4>
+			<p>to select data, SELECT column_name1,column_name_2 FROM table_name</p>
+			<p>Example: $sql=”SELECT id, fname,lname FROM Customers”;</p>
+		<h4>DELETE data</h4>
+			<p>to delete record from table, DELETE FROM table_name WHERE specific_column=specific_value</p>
+			<p>Example: $sql=”DELETE FROM Customers WHERE id=4”;</p>
+		<h4>UPDATE data</h4>
+			<p>to update an existing data from the records, UPDATE table_name SET column1=value1, column2=value2,... WHERE specific_column=specific_value</p>
+			<p>Example: $sql = "UPDATE Customers SET fname='Joel' WHERE id=2";</p>
+	</div>
+	<!--JAVASCRIPT-->
+	<script src="../../js/jquery-3.2.1.slim.min.js"></script>
+	<script src="../../js/popper.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
 </body>
 </html>
-
