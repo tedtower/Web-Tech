@@ -30,25 +30,48 @@
         </div>
     </nav>
     <br><br><br>
-    <form action="checkAnswers2.php" target="_self" method="post">
+    <form  method="post">
     <?php
     require "../includes/readJson2.php";
-    if($array == null){
-        echo "Your array is empty!!!";
-    }else{
-        $cChar = 0141;
+    if(isset($_POST['submit'])){
+        $array_size = sizeof($array['questions']);
+        $correct_answers = [];
+        for($index = 0; $index < $array_size ; $index++){
+            array_push($correct_answers, $array['questions'][$index]['answer']);
+        }
 
-        for ($x = 0; $x < sizeof($array['questions']); $x++) {
-            $qNo = $x+1;
-            $choiceChar = chr($cChar);
-            echo "\n<p>" .$qNo . ". ". $array['questions'][$x]['question'] . "</p>";
-
-            for($y = 0; $y<sizeof($array['questions'][$x]['choices']); $y++ ){
-                $cNo = $y+1;
-                $id = $choiceChar . ($y+1);
-                echo "<input type='radio' name='q$qNo' id='$id' value='$id'><label for='$id' style='font-size:17px;'>" . $array['questions'][$x]['choices'][$y] . "</label><br>";
+        $user_answers = [];
+        $qChar = chr(0161);
+        $score = 0;
+        for($index = 0; $index < $array_size ; $index++){
+            $name = $qChar . ($index+1);
+            array_push($user_answers, $_POST[$name]);
+            if(strcmp($correct_answers[$index], $user_answers[$index]) == 0 ){
+                $score++;
             }
-            $cChar++;
+        }
+        echo("<script>
+            window.alert('You have scored $score out of $array_size!');
+            window.location.href='../index.html';
+        </script>");
+    }else {
+        if ($array == null) {
+            echo "Your array is empty!!!";
+        } else {
+            $cChar = 0141;
+
+            for ($x = 0; $x < sizeof($array['questions']); $x++) {
+                $qNo = $x + 1;
+                $choiceChar = chr($cChar);
+                echo "\n<p>" . $qNo . ". " . $array['questions'][$x]['question'] . "</p>";
+
+                for ($y = 0; $y < sizeof($array['questions'][$x]['choices']); $y++) {
+                    $cNo = $y + 1;
+                    $id = $choiceChar . ($y + 1);
+                    echo "<input type='radio' name='q$qNo' id='$id' value='$id'><label for='$id' style='font-size:17px;'>" . $array['questions'][$x]['choices'][$y] . "</label><br>";
+                }
+                $cChar++;
+            }
         }
     }
     ?>
