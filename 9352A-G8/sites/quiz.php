@@ -28,7 +28,7 @@
             </ul>
         </div>
     </nav>
-    <br><br><br>
+    <br><br>
     <form method="post">
             <?php
             require "../includes/readJson.php";
@@ -62,7 +62,7 @@
                     for ($x = 0; $x < sizeof($array['questions']); $x++) {
                         $qNo = $x + 1;
                         $choiceChar = chr($cChar);
-                        echo "\n<p>" . $qNo . ". " . $array['questions'][$x]['question'] . "</p>";
+                        echo "\n<p id='questions'>" . $qNo . ". " . $array['questions'][$x]['question'] . "</p>";
 
                         for ($y = 0; $y < sizeof($array['questions'][$x]['choices']); $y++) {
                             $cNo = $y + 1;
