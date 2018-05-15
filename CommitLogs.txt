@@ -1,0 +1,457 @@
+COMMIT LOGS
+commit 0986263ccbc71a9fc843ffe1ea89d925bd179df8 (HEAD -> master, origin/master, origin/HEAD)
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 17:42:22 2018 +0800
+
+    iupdated the readme
+
+commit 31367aa5c8916d5d4ac0a1859a244e669008a72a
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 17:39:48 2018 +0800
+
+    compiled the website files
+
+commit bcf3eff0bb8adebd300f13ca1fbf47265182ebc7
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 17:34:09 2018 +0800
+
+    u[dated the docu
+
+commit 4c47038f4f674be952650795bdfa6d9b029c452b
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Mon May 14 17:12:52 2018 +0800
+
+    Updated Node.js
+
+commit c555821b469b21221f3482767fe9f011370265e9
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 17:07:45 2018 +0800
+
+    Minor Update
+
+commit 0bc50a0da7bf9a27cb57db5791333aeaef7919bd
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 17:05:00 2018 +0800
+
+    Minor Update
+
+commit ab11cbcfc4295034522f295f3d0da22a1333eb36
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 17:00:28 2018 +0800
+
+    Minor Updates
+
+commit c7ed563744ab76035c74819a8096d8772e0f0d56
+Author: tedtower <34298083+tedtower@users.noreply.github.com>
+Date:   Mon May 14 16:52:24 2018 +0800
+
+    Add files via upload
+
+commit 4fef93b094ec6ba8d2797d892185721d65f1323c
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 16:44:50 2018 +0800
+
+    Docu added screenshots
+
+commit 275c4e42394857eaaddc7a28893f1cd1ae667f83
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 16:28:28 2018 +0800
+
+    Removed Advanced Quiz
+
+commit 40c1adc6d8b9c15fe3e75b0a190e559ad6b21f3b
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 16:26:16 2018 +0800
+
+    Fixed SOME STUUFS
+
+commit 4e036fcfbe6119ca9243d0c423720153c3a37daa
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 16:17:24 2018 +0800
+
+    Added OWASP
+
+commit 7a0d9f4cfd3ea761d511a7ae8eb02bed1e3ae487
+Merge: 53d1ee4 d68c54e
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Mon May 14 16:15:53 2018 +0800
+
+    Merge pull request #4 from tedtower/master-1
+
+    Added PHP references
+
+commit d68c54e65f72dde9a73de1f35141ebe6f574a921
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Mon May 14 16:15:16 2018 +0800
+
+    Added PHP references
+
+commit 53d1ee4dd0f4b3bb366a5644c69326d9fd55ccec
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 16:02:07 2018 +0800
+
+    Added Regerences
+
+commit ab8261c98139503b16e1b19bc6c7a06dc67e205f
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 15:54:02 2018 +0800
+
+    updated references
+
+commit 93c19511fbb55da8112292586146de720326c737
+Merge: 9def240 281c1b6
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 15:47:09 2018 +0800
+
+    Merge branch 'master' of https://github.com/tedtower/Web-Tech
+
+commit 9def2400b08c7f4c6c9e7eaa32f3763044649299
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 15:46:54 2018 +0800
+
+    REFERENCES
+
+commit 281c1b63e4ba5b8083ab91d7550ee94546c77d5d
+Merge: f7c9bf4 53b262c
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 15:41:46 2018 +0800
+
+    Merge branch 'master' of https://github.com/tedtower/Web-Tech
+    What the hell is this?
+
+commit f7c9bf4c86d3c5715bef301bd756e0a10c1860af
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 15:41:23 2018 +0800
+
+    Changed FOnt Size for quiz
+
+commit 53b262cf1741a144b0de4a4ed6c784734d5d2e4a
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Mon May 14 15:41:12 2018 +0800
+
+    OWASP
+
+commit 30609398fc793a749d4e1b89f8d2af4ac7934b8c
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 15:26:55 2018 +0800
+
+    Added style for quizzes
+
+commit 71cdfd894fc284e16de999d60ba6faa3a4d4fdbf
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 14:51:13 2018 +0800
+
+    updated the documentation
+
+commit a7871b88e97cf6ab6a28e5e039f5ddcba338af7f
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 14:30:31 2018 +0800
+
+    quiz with alert and redirect function
+
+commit 1fbea46b2a499ba99a37043b6ff999704ed7b23a
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 14:07:35 2018 +0800
+
+    gumagana na yung quiz
+
+commit 5498b3a904cb9318927cb65c63a7a131875d3191
+Merge: f12f7a4 f78c29b
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 13:54:43 2018 +0800
+
+    Merge branch 'master' of https://github.com/tedtower/Web-Tech
+
+commit f12f7a41e6594a64607c1f9c63ddf86fff9a3289
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 13:54:19 2018 +0800
+
+    Created the Overview of Technologies for the documentation
+
+commit f78c29bbc3e87e7dd878eb76c0f6c36d601cae53
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 13:48:00 2018 +0800
+
+    Integrated CSS to sites
+
+commit 2a1728f27ef79d81e0f8b23bb12ba915978af50e
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 13:13:41 2018 +0800
+
+    Changed Pinakafinalsnawebsite to FINALS
+
+commit 8ca9d4df302e66fcd4097323619c2b91fd70da6d
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 13:11:48 2018 +0800
+
+    Added JSP
+
+commit e8b4ef32dbe2609c5f9d581605f33bde1b09b86b
+Author: Aika <aikaviend@gmail.com>
+Date:   Mon May 14 12:59:06 2018 +0800
+
+    Added the HTML file for JSP.
+
+commit 18ed128e40dfcde0e31d9c651b18090eb6b7e68c
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 12:28:25 2018 +0800
+
+    fixed html encoding for quiz 2
+
+commit 27685260d177f54fa3ddf8235e35828aaed14bbf
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Mon May 14 12:11:52 2018 +0800
+
+    Updated the PHP files and added another quiz
+
+commit d90380b15bb4e4c166a2289bbe1efa8f92c56438
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Mon May 14 08:30:40 2018 +0800
+
+    Uploaded Documentation (Incomplete)
+
+commit f156a51a59ee09ec1a35463e72b9cfaa8b80b0a2
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Mon May 14 08:27:43 2018 +0800
+
+    Added documentation(incomplete)
+
+commit 6abfb16d602366626dd6bf2646e8d7f42de9e644
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Mon May 14 08:14:58 2018 +0800
+
+    Delete sitemap.docx
+
+commit b2d6bdb6538db604134a0de923fd01d31601109a
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Mon May 14 06:23:45 2018 +0800
+
+    added quiz3 and (sitemap for documentation)
+
+commit 853db76af0373857ec300c210d31d79caa976d58
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Mon May 14 02:20:08 2018 +0800
+
+    Hmmmm
+
+commit 4b254dcc903366b915ca937e77085dd7df9f7b23
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sun May 13 17:06:43 2018 +0800
+
+    Added Node.js htm and images
+
+commit 877c965500d7c0bd9c5081bf188fb2f65b26db19
+Merge: 9275d7d 29df8c5
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Sun May 13 16:04:38 2018 +0800
+
+    Merge branch 'master' of https://github.com/tedtower/Web-Tech
+
+commit 9275d7d0d88bba3b6785a414cc1c519513d3edeb
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Sun May 13 16:04:21 2018 +0800
+
+    Created the Quiz processing using PHP
+
+commit 29df8c5f6e65f42a99e1eb41702ec300f31fc8df
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Sun May 13 15:59:50 2018 +0800
+
+    Added something unimportant
+
+commit 88228f53583dddc4303a7a67707b865d74165ec1
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Sun May 13 15:47:02 2018 +0800
+
+    updated node.js
+
+commit 2c853da6f2d9deea8eb58a0a2bfc521743ab8173
+Merge: 929170f b2167cf
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Sun May 13 15:46:32 2018 +0800
+
+    Merge branch 'master' of https://github.com/tedtower/Web-Tech
+
+commit b2167cfb5927dff6f9cb1bb5a4bf89e8e55fadd7
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sun May 13 15:24:45 2018 +0800
+
+    Added Quiz 2.txt
+
+commit d3d33517d03e26d2b08f827eba2ad0be05ce9b13
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Sun May 13 15:10:01 2018 +0800
+
+    Added Java Servlets and PHP in the course website
+
+commit e66feaa20eb2f2419130a9926ac5d0182b0b6c9a
+Author: iJeane <2168137@slu.edu.ph>
+Date:   Sun May 13 15:00:57 2018 +0800
+
+    Redesigned Responisve Final Website
+
+commit 64a911114640328119552bc291bd386d20bf6499
+Merge: f73939c a82512d
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sun May 13 14:58:07 2018 +0800
+
+    Merge pull request #3 from tedtower/Sherlea-patch-2-1
+
+    new updte from the PHP
+
+commit a82512db5272bbf590e4d3b2afea3dfed6fc8a51 (origin/Sherlea-patch-2-1)
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sun May 13 14:57:10 2018 +0800
+
+    Add files via upload
+
+commit 929170f2b615e1edbf155f4b68d750e52fb425bb
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Sun May 13 07:15:04 2018 +0800
+
+    added and updated somde files
+
+commit f73939cf21266cf4b5aee1a552b00f560fbb6481
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Sun May 13 05:43:32 2018 +0800
+
+    Added pictures of Screenshots for Node.js
+
+commit ce84daa12bc049120b790acf9fa8b1a3405b0e73
+Author: tedtower <2168162@slu.edu.ph>
+Date:   Sun May 13 05:39:31 2018 +0800
+
+    updated files
+
+commit abf5552b794db7f20f4ea6cd759de127eba2ab44
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Sun May 13 01:17:04 2018 +0800
+
+    node additional notes
+
+commit e13457d7c801c1c4d62b312a2ea27d5f14469822
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Sat May 12 23:21:03 2018 +0800
+
+    added threats note
+
+commit da47effa2a1f0cdababb659762b073e318c6af89
+Author: Aika <aikaviend@gmail.com>
+Date:   Sat May 12 21:04:50 2018 +0800
+
+    Added notes to the Java Servlet HTML.
+
+commit 024c8b7353d6471721fae8d0633b13d0163974d4
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sat May 12 15:51:25 2018 +0800
+
+    PHP with Figures
+
+commit 1f77a68b092ccc7fe00aae9c801cd2142527de8b
+Author: Aika <aikaviend@gmail.com>
+Date:   Sat May 12 15:35:35 2018 +0800
+
+    Added html file for Java Servlets and HTTP Servlets
+
+commit 991b751855306db85377aa356c55518fb9308025
+Author: biyenaaa <32679060+biyenaaa@users.noreply.github.com>
+Date:   Sat May 12 14:23:32 2018 +0800
+
+    Update References
+
+commit ce05f6aba6be99f459da3e3756459a12d65b9b5c
+Author: biyenaaa <32679060+biyenaaa@users.noreply.github.com>
+Date:   Sat May 12 14:22:37 2018 +0800
+
+    Added notes for JSP Architecture and Lifecycle
+
+commit 8be817b9cc3513f680ac7913dca41bbbc5df7fcc
+Author: tedtower <34298083+tedtower@users.noreply.github.com>
+Date:   Sat May 12 13:04:13 2018 +0800
+
+    Node js updated
+
+commit d77281c1f56a85f293374f3ee97777ac348058f7
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Sat May 12 12:45:03 2018 +0800
+
+    Uploaded Quiz
+
+commit e9bda1a437f5f5acd103bd9ebab5d183a0ed5fc5
+Author: tedtower <34298083+tedtower@users.noreply.github.com>
+Date:   Sat May 12 12:18:08 2018 +0800
+
+    Updated Outline notes for Node.js
+
+commit b7e808ae98038ae0205c7d9f53174ea7c0972822
+Merge: b62917b 1ba378e
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sat May 12 12:01:48 2018 +0800
+
+    Merge pull request #2 from tedtower/Sherlea-patch-2
+
+    Updated PHP
+
+commit 1ba378e89510b80d391623492e7b151109cf16eb (origin/Sherlea-patch-2)
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sat May 12 11:59:56 2018 +0800
+
+    Updated PHP
+
+commit b62917bb7a362078d28a7bb38289733df6e5d14d
+Author: rox65 <34298121+rox65@users.noreply.github.com>
+Date:   Sat May 12 11:29:41 2018 +0800
+
+    Delete HTTP Servlet.docx
+
+commit 1cc04d695f42b2251de9060c689d056dea28b8ee
+Author: tedtower <34298083+tedtower@users.noreply.github.com>
+Date:   Sat May 12 06:55:58 2018 +0800
+
+    partial Node.js
+
+commit 23225f99172f56e4b2efc7874bbe35f5aa6d2e94
+Author: biyenaaa <32679060+biyenaaa@users.noreply.github.com>
+Date:   Mon May 7 01:51:07 2018 +0800
+
+    Notes for FileInputStream & ServletOutputStream
+
+commit 7a7f0b4f1f95b0d20bf65984fc251d704320a93c
+Author: biyenaaa <32679060+biyenaaa@users.noreply.github.com>
+Date:   Mon May 7 01:49:32 2018 +0800
+
+    Update References
+
+commit 09ff7edb43a1cba73175e864cd4fcc0e7ab8b4d1
+Author: biyenaaa <32679060+biyenaaa@users.noreply.github.com>
+Date:   Mon May 7 01:29:47 2018 +0800
+
+    Update References
+
+commit 99e836bb521c7628768d541a5e09a23c22d76867
+Author: biyenaaa <32679060+biyenaaa@users.noreply.github.com>
+Date:   Mon May 7 01:28:51 2018 +0800
+
+    Added notes for ServletContext.
+
+commit 142f583cb8d42909e76cf22c347f890ae284d00b
+Merge: 18c9fec f5a9803
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sun May 6 20:05:03 2018 +0800
+
+    Merge pull request #1 from tedtower/Sherlea-patch-1
+
+    new PHP
+
+commit f5a980351bdc89ec0d913cb62fc5cec3e23b9c4b (origin/Sherlea-patch-1)
+Author: Sherlea <34297873+Sherlea@users.noreply.github.com>
+Date:   Sun May 6 20:04:03 2018 +0800
+
+    new PHP
+
+commit 18c9fec40e565efb97b34da09cb579290cc950ec
+Author: Jeane Cris Cariño Domaoa <31350665+iJeane@users.noreply.github.com>
+Date:   Sat May 5 23:06:33 2018 +0800
+
+    Added incomplete JSP notes
+
