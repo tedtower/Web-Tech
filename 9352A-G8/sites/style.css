@@ -21,13 +21,13 @@ nav div.navbar-brand, ul li a.nav-link {
     transition: .4s;
     background-color: black;
 }
-p {
+p#questions {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 3px;
     background-color: #303030;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 .butt {
     text-align: center;
@@ -35,7 +35,7 @@ p {
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 920px) {
-	p {
-        font-size: 24px;
+	p#questions {
+        font-size: 18px;
     }
 }
